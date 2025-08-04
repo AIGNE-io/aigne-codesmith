@@ -1,5 +1,5 @@
 name: 'AIGNE CodeSmith'
-description: 'PR Reviewer & Summarizer based on AIGNE Framework'
+description: 'AI-powered code reviews and PR summaries using Anthropic Claude. Get intelligent, context-aware feedback on your pull requests.'
 branding:
   icon: 'git-merge'
   color: 'orange'
