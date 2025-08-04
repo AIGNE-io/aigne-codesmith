@@ -5,13 +5,6 @@ module.exports = {
   target: 'node',
   mode: 'production',
   externals: {
-    '@libsql/client': 'commonjs @libsql/client',
-    '@libsql/linux-arm-musleabihf': 'commonjs @libsql/linux-arm-musleabihf',
-    '@libsql/linux-arm64-musl': 'commonjs @libsql/linux-arm64-musl',
-    '@libsql/linux-x64-musl': 'commonjs @libsql/linux-x64-musl',
-    '@libsql/darwin-arm64': 'commonjs @libsql/darwin-arm64',
-    '@libsql/darwin-x64': 'commonjs @libsql/darwin-x64',
-    '@libsql/win32-x64-msvc': 'commonjs @libsql/win32-x64-msvc'
   },
   resolve: {
     extensions: ['.js', '.ts'],
