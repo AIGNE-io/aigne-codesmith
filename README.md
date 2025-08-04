@@ -1,5 +1,3 @@
-# 🤖 AIGNE CodeSmith
-
 <div align="center">
 
 **AI-Powered Code Reviews & PR Summaries for GitHub**
@@ -333,7 +331,7 @@ for details.
 
 <div align="center">
 
-**Made with ❤️ by the [Blocklet](https://blocklet.io) team**
+**Made with ❤️ by the [AIGNE](https://www.aigne.io) Team**
 
 [⭐ Star on GitHub](../../stargazers) • [🐛 Report Issues](../../issues) •
 [💡 Request Features](../../issues/new?template=feature_request.md)
