@@ -1,8 +1,8 @@
 import './fetch-polyfill'
 
 import { info, setFailed, warning } from '@actions/core'
-import { AIAgent, AIGNE } from '@aigne/core'
-import { AnthropicChatModel } from '@aigne/anthropic'
+import { AIAgent, ExecutionEngine } from '@aigne/core'
+import { ClaudeChatModel } from '@aigne/core/models/claude-chat-model.js'
 import pRetry from 'p-retry'
 import { ModelOptions, Options } from './options'
 
@@ -13,7 +13,7 @@ export interface Ids {
 }
 
 export class Bot {
-  private readonly api: AnthropicChatModel | null = null
+  private readonly api: ClaudeChatModel | null = null
   private readonly options: Options
   private readonly modelOptions: ModelOptions
 
@@ -26,7 +26,7 @@ export class Bot {
 
     this.options = options
     this.modelOptions = modelOptions
-    this.api = new AnthropicChatModel({
+    this.api = new ClaudeChatModel({
       apiKey: process.env.ANTHROPIC_API_KEY,
       model: this.modelOptions.model,
       modelOptions: {
@@ -69,11 +69,11 @@ Knowledge cutoff: ${this.modelOptions.tokenLimits.knowledgeCutOff}
 Current date: ${currentDate}
 IMPORTANT: Entire response must be in the language with ISO code: ${this.options.language}`
       })
-      const engine = new AIGNE({ model: this.api })
+      const engine = new ExecutionEngine({ model: this.api })
 
       try {
         const result = await pRetry(
-          () => engine.invoke(reviewAgent, { message }),
+          () => engine.call(reviewAgent, message),
           {
             retries: this.options.anthropicRetries
           }
