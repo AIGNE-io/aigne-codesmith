@@ -1,0 +1,1 @@
+A dynamic and abstract hero image for the AIGNE CodeSmith homepage. It visually represents the core concept of AI-powered code analysis, setting a high-tech and innovative tone for the page. The abstract nature of the image ensures it complements the headline without distracting from it, immediately conveying sophistication and cutting-edge technology.

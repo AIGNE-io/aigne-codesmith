@@ -1,0 +1,50 @@
+descriptions:
+  276e0b96c58783ef6c528574d9389331ad8b6b13f0392ca999cc12d5e54b9592:
+    path: ../../../docs/images/pr-walkthrough.png
+    description: This image is a screenshot of a GitHub-like pull request comment
+      from a `github-actions bot`, displayed in a dark theme. It features a
+      "Walkthrough" explaining a software update that centralizes file handling
+      and enhances media upload, followed by a "Changes" section. This section
+      presents a two-column table detailing specific files and a summary of the
+      updates made to each, including references to utility functions and
+      protocols.
+    generatedAt: 2025-10-16T00:46:34.569Z
+  f36e6b6f049b1b7129d31d6a6bcc25067993126249cd826b9896cda419ca0a93:
+    path: ../../../docs/images/pr-title-suggestion.png
+    description: 'This screenshot displays a GitHub comment section in a dark theme,
+      showing an entry from a "github-actions bot" that provides "Pull Request
+      Title Suggestions." The bot, identified with "AIGNE CodeSmith," lists
+      three numbered suggestions for pull request titles, each following a
+      conventional format like "feat(scope): message." This image demonstrates
+      an automated AI-powered feature for assisting developers in naming their
+      pull requests.'
+    generatedAt: 2025-10-16T00:46:34.569Z
+  e308a4962fcb6002b608f80550b5c7b7b4ad5f3f804a1f5a748b13656dc9b9f1:
+    path: ../../../docs/images/pr-review-comment.png
+    description: This screenshot displays a GitHub pull request review comment from
+      a "github-actions bot" named "AIGNE CodeSmith." The bot suggests a code
+      fix, recommending the use of `path.join()` instead of `path.resolve()` for
+      safer path concatenation, with a visual diff showing the removed (red) and
+      added (green) code lines. The interface also shows surrounding code lines
+      and an "Outdated" tag for the file `utils/upload-files.mjs`.
+    generatedAt: 2025-10-16T00:46:34.569Z
+  3b22590acc17647f0f1f305d6743850e353eac8103820a6a421283c843dd32e0:
+    path: ../../../docs/images/pr-summary.png
+    description: This image displays a software release notes summary titled
+      'Summary by AIGNE' on a dark user interface. It lists several bullet
+      points detailing new features, a refactor, and documentation updates
+      related to enhanced file handling, improved media upload capabilities, and
+      terminal recording configurations for WebSmith projects. A concluding
+      paragraph states that these updates streamline content management and
+      improve media handling for users.
+    generatedAt: 2025-10-16T00:46:34.569Z
+  9c23c99c3378eec252d0057f6027b9ed97cfe7bd40600e2f61e2c84695a32f02:
+    path: ../../../docs/images/github-action-secret.png
+    description: This screenshot displays the GitHub repository settings page for
+      "Actions secrets and variables" in a dark theme. The left navigation pane
+      highlights the "Secrets and variables" section under "Security," while the
+      main content area shows tabs for "Secrets" and "Variables." Under
+      "Repository secrets," an entry named "ANTHROPIC_API_KEY" is visible, along
+      with a "New repository secret" button.
+    generatedAt: 2025-10-16T00:46:34.569Z
+lastUpdated: 2025-10-16T00:46:34.572Z

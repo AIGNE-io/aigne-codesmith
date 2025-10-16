@@ -1,0 +1,4 @@
+- path: /home
+  navigation:
+    title: 首页
+    description: AI 驱动的代码审查

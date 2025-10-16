@@ -1,0 +1,15 @@
+- title: "AIGNE CodeSmith: AI-Powered Code Reviews & PR Summaries"
+  description: A comprehensive single-page website for AIGNE CodeSmith. The page
+    begins with a hero section highlighting the core value proposition of
+    AI-powered code reviews. It's followed by sections detailing key features, a
+    step-by-step Quick Start guide, real-world use cases with testimonials,
+    transparent pricing information, and detailed configuration options. The
+    page also includes information on how to contribute and find support.
+  path: /home
+  navigation:
+    title: Home
+    description: AI-powered code reviews
+  sourceIds:
+    - README.md
+    - action.yml
+  parentId: ""

@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Overview",
+    "description": "Provides a high-level introduction to the AIGNE CodeSmith GitHub Action, outlining the problems it solves, its core features like AI-powered code reviews and PR summaries, and the overall workflow to help developers quickly understand its value.",
+    "path": "/overview",
+    "sourceIds": [
+      "README.md",
+      "action.yml",
+      "src/main.ts",
+      "src/review.ts",
+      "src/bot.ts",
+      "package.json"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Getting Started",
+    "description": "A focused, step-by-step guide designed to get the action running in a repository in under 30 minutes, covering initial setup and basic configuration.",
+    "path": "/getting-started",
+    "sourceIds": [
+      "README.md",
+      "action.yml"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Installation",
+    "description": "Details the process of adding the AIGNE CodeSmith workflow file to a repository and configuring the necessary secrets, such as the Anthropic API key, to enable the action.",
+    "path": "/getting-started/installation",
+    "sourceIds": [
+      "README.md",
+      "action.yml"
+    ],
+    "parentId": "/getting-started"
+  },
+  {
+    "title": "Basic Configuration",
+    "description": "Explains the most essential configuration options from the action.yml file, allowing new users to quickly customize core behaviors like model selection and file processing limits.",
+    "path": "/getting-started/basic-configuration",
+    "sourceIds": [
+      "action.yml",
+      "src/options.ts",
+      "src/main.ts"
+    ],
+    "parentId": "/getting-started"
+  },
+  {
+    "title": "Guides",
+    "description": "Provides practical, task-oriented instructions for leveraging the full capabilities of AIGNE CodeSmith, from customizing AI behavior to managing specific features.",
+    "path": "/guides",
+    "sourceIds": [
+      "action.yml",
+      "src/prompts.ts",
+      "src/review.ts",
+      "src/review-comment.ts",
+      "src/options.ts",
+      "src/pr-title-suggest.ts"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Configuring File Scope",
+    "description": "A guide on how to use path filters to precisely include or exclude specific files and directories from the review process, ensuring the AI focuses only on relevant code.",
+    "path": "/guides/configuring-file-scope",
+    "sourceIds": [
+      "action.yml",
+      "src/options.ts",
+      "src/review.ts"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Customizing AI Behavior",
+    "description": "Shows developers how to tailor the AI's review style, focus, and tone by modifying system messages and other prompts to align with team standards and specific review goals.",
+    "path": "/guides/customizing-ai-behavior",
+    "sourceIds": [
+      "action.yml",
+      "src/prompts.ts",
+      "src/options.ts",
+      "src/bot.ts"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Interacting with the Bot",
+    "description": "Explains how to engage with the CodeSmith bot directly within a pull request, including how to reply to its comments for follow-up questions and how to use keywords to skip reviews.",
+    "path": "/guides/interacting-with-the-bot",
+    "sourceIds": [
+      "src/review-comment.ts",
+      "src/review.ts",
+      "src/commenter.ts",
+      "README.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Managing Features",
+    "description": "Covers how to enable or disable specific functionalities such as code reviews, release note generation, and automatic PR title suggestions to fit your project's workflow.",
+    "path": "/guides/managing-features",
+    "sourceIds": [
+      "action.yml",
+      "src/review.ts",
+      "src/pr-title-suggest.ts",
+      "src/options.ts"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Reference",
+    "description": "A comprehensive reference section that provides exhaustive details on all available configuration options for power users.",
+    "path": "/reference",
+    "sourceIds": [
+      "action.yml",
+      "src/options.ts"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Configuration Options",
+    "description": "A complete and detailed list of all input parameters available in action.yml, explaining what each option does, its default value, and how to use it for advanced customization.",
+    "path": "/reference/configuration-options",
+    "sourceIds": [
+      "action.yml",
+      "src/options.ts",
+      "src/main.ts",
+      "src/limits.ts"
+    ],
+    "parentId": "/reference"
+  }
+]

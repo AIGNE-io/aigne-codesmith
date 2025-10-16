@@ -1,0 +1,61 @@
+sitemap:
+  - title: "AIGNE CodeSmith: AI-Powered Code Reviews & PR Summaries"
+    path: /home
+    locales:
+      en:
+        title: "AIGNE CodeSmith: AI-Powered Code Reviews & PR Summaries"
+        description: Accelerate your development workflow with AIGNE CodeSmith. Get
+          intelligent, context-aware code reviews and automated PR summaries
+          powered by Claude's advanced AI to improve code quality and save time.
+        image: mediakit://aigne-codesmith-hero-visual.png
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      zh:
+        title: AIGNE CodeSmith：AI 驱动的代码审查与 PR 摘要
+        description: 使用 AIGNE CodeSmith 加速您的开发工作流。获取由 Claude 先进 AI 驱动的智能、上下文感知代码审查和自动化
+          PR 摘要，以提高代码质量并节省时间。
+        image: mediakit://aigne-codesmith-hero-visual.png
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+    meta:
+      file: home.yaml
+      id: 616571b7c79a8472
+      createdAt: 2025-10-16T00:52:17.883Z
+      updatedAt: 2025-10-16T00:52:17.883Z
+      publishedAt: 2025-10-16T00:52:17.883Z
+      isPublic: true
+navigations:
+  - id: 106a6c241b8797f5
+    section: header
+    visible: true
+    title:
+      en: Home
+      zh: 首页
+    link:
+      en: /
+      zh: /
+    description:
+      en: AI-powered code reviews
+      zh: AI 驱动的代码审查
+  - id: f5c5d15c42b3cf01
+    section: footer
+    visible: true
+    title:
+      en: Home
+      zh: 首页
+    link:
+      en: /
+      zh: /
+    description:
+      en: AI-powered code reviews
+      zh: AI 驱动的代码审查
