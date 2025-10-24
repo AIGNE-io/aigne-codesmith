@@ -1,7 +1,7 @@
 id: 616571b7c79a8472
-createdAt: 2025-10-16T00:52:17.883Z
-updatedAt: 2025-10-16T00:52:17.883Z
-publishedAt: 2025-10-16T00:52:17.883Z
+createdAt: 2025-10-24T13:20:03.569Z
+updatedAt: 2025-10-24T13:20:03.569Z
+publishedAt: 2025-10-24T13:20:03.569Z
 isPublic: true
 locales:
   en:
@@ -12,9 +12,9 @@ locales:
       paddingX: normal
     title: "AIGNE CodeSmith: AI-Powered Code Reviews & PR Summaries"
     description: Accelerate your development workflow with AIGNE CodeSmith. Get
-      intelligent, context-aware code reviews and automated PR summaries powered
-      by Claude's advanced AI to improve code quality and save time.
-    image: mediakit://aigne-codesmith-hero-visual.png
+      intelligent, context-aware code reviews and PR summaries powered by
+      Claude's advanced reasoning to improve code quality and save time.
+    image: mediakit://hero-aigne-codesmith-visual.png
     header:
       sticky: true
   zh:
@@ -24,126 +24,114 @@ locales:
       paddingY: normal
       paddingX: normal
     title: AIGNE CodeSmith：AI 驱动的代码审查与 PR 摘要
-    description: 使用 AIGNE CodeSmith 加速您的开发工作流。获取由 Claude 先进 AI 驱动的智能、上下文感知代码审查和自动化
-      PR 摘要，以提高代码质量并节省时间。
-    image: mediakit://aigne-codesmith-hero-visual.png
+    description: 使用 AIGNE CodeSmith 加速您的开发工作流。获取由 Claude 先进推理能力驱动的智能、上下文感知代码审查和 PR
+      摘要，以提高代码质量并节省时间。
+    image: mediakit://hero-aigne-codesmith-visual.png
     header:
       sticky: true
 sections:
-  e1c97b3710d489a2:
-    id: e1c97b3710d489a2
-    name: Feature Grid_left
+  fccd2eef046cc699:
+    id: fccd2eef046cc699
+    name: Split Hero
     component: layout-block
     sections:
-      78e3421030dcbdd5:
-        id: 78e3421030dcbdd5
-        name: Content
+      1d65557cb91421e6:
+        id: 1d65557cb91421e6
+        name: Text
         component: layout-block
         sections:
-          2595d95961e10014:
-            id: 2595d95961e10014
-            name: CTA
-            component: layout-block
-            sections:
-              087e8576fefadf0f:
-                id: 087e8576fefadf0f
-                name: Description
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              5455a7046747c6d7:
-                id: 5455a7046747c6d7
-                name: Action
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: a44r0SiGV9AFn2Fj
-                sectionIds: []
-            sectionIds:
-              - 087e8576fefadf0f
-              - 5455a7046747c6d7
+          7b1376699bbeab12:
+            id: 7b1376699bbeab12
+            name: Title
+            component: custom-component
             config:
-              gridSettings:
-                desktop:
-                  087e8576fefadf0f:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                  5455a7046747c6d7:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-              paddingY: normal
-              gap: normal
-              maxWidth: full
-              paddingX: none
-          ccdf0179b25ef747:
-            id: ccdf0179b25ef747
-            name: Image
-            component: layout-block
-            sections:
-              f98b98ffd13b8a1d:
-                id: f98b98ffd13b8a1d
-                name: Media
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0JPjPs122kaaa-
-                sectionIds: []
-            sectionIds:
-              - f98b98ffd13b8a1d
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+          b1727de5312cd351:
+            id: b1727de5312cd351
+            name: Description
+            component: custom-component
             config:
-              borderRadius: small
-              gridSettings:
-                desktop:
-                  f98b98ffd13b8a1d:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-              background: background.paper
-              paddingX: small
-              paddingY: small
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+          fcb1cc05e11b014c:
+            id: fcb1cc05e11b014c
+            name: Action
+            component: custom-component
+            config:
+              useCache: true
+              componentId: a44r0SiGV9AFn2Fj
+            sectionIds: []
         sectionIds:
-          - 2595d95961e10014
-          - ccdf0179b25ef747
+          - 7b1376699bbeab12
+          - b1727de5312cd351
+          - fcb1cc05e11b014c
         config:
-          borderRadius: small
-          paddingX: none
-          paddingY: normal
-          maxWidth: full
+          gap: small
           gridSettings:
             desktop:
-              2595d95961e10014:
+              7b1376699bbeab12:
                 x: 0
                 y: 0
-                w: 5
+                w: 12
                 h: 1
-              ccdf0179b25ef747:
-                x: 6
+              b1727de5312cd351:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+              fcb1cc05e11b014c:
+                x: 0
+                y: 2
+                w: 12
+                h: 1
+      a8212db5d3655549:
+        id: a8212db5d3655549
+        name: Image
+        component: layout-block
+        sections:
+          04e6e387749aad19:
+            id: 04e6e387749aad19
+            name: Media
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0JPjPs122kaaa-
+            sectionIds: []
+        sectionIds:
+          - 04e6e387749aad19
+        config:
+          borderRadius: small
+          gridSettings:
+            desktop:
+              04e6e387749aad19:
+                x: 0
                 y: 0
-                w: 6
+                w: 12
                 h: 1
-          gap: normal
     sectionIds:
-      - 78e3421030dcbdd5
+      - 1d65557cb91421e6
+      - a8212db5d3655549
     config:
+      background: auto
+      paddingX: normal
+      paddingY: large
+      gap: normal
       gridSettings:
         desktop:
-          78e3421030dcbdd5:
+          1d65557cb91421e6:
             x: 0
             y: 0
-            w: 12
+            w: 5
             h: 1
-      gap: normal
-      paddingY: normal
-      background: transparent
-      border: none
-      paddingX: none
+          a8212db5d3655549:
+            x: 6
+            y: 0
+            w: 6
+            h: 1
+      backgroundFullWidth: true
   671827b9508f92f3:
     id: 671827b9508f92f3
     name: Testimonials/Reviews
@@ -405,10 +393,235 @@ sections:
               gap: normal
               border: solid
               alignContent: start
+          95e04be57343246b:
+            id: 95e04be57343246b
+            name: Cards-4
+            component: layout-block
+            sections:
+              6c7d6356a9593b08:
+                id: 6c7d6356a9593b08
+                name: Title
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              e54d5c77b851d15a:
+                id: e54d5c77b851d15a
+                name: Icon
+                component: layout-block
+                sections:
+                  3146007f1ae8e627:
+                    id: 3146007f1ae8e627
+                    name: Icon
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: YwuDiIbyyF5vfGpt
+                    sectionIds: []
+                sectionIds:
+                  - 3146007f1ae8e627
+                config:
+                  gridSettings:
+                    desktop:
+                      3146007f1ae8e627:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: transparent
+                  height: 100%
+                  borderRadius: custom:0px
+                  alignContent: start
+            sectionIds:
+              - 6c7d6356a9593b08
+              - e54d5c77b851d15a
+            config:
+              gridSettings:
+                desktop:
+                  6c7d6356a9593b08:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  e54d5c77b851d15a:
+                    x: 0
+                    y: 0
+                    w: 6
+                    h: 1
+                mobile:
+                  6c7d6356a9593b08:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  e54d5c77b851d15a:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: start
+          bd5002d1be146892:
+            id: bd5002d1be146892
+            name: Cards-5
+            component: layout-block
+            sections:
+              c29e90aa797f1e8a:
+                id: c29e90aa797f1e8a
+                name: Title
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              8f6ca404a8890cfa:
+                id: 8f6ca404a8890cfa
+                name: Icon
+                component: layout-block
+                sections:
+                  37a9e660875f3168:
+                    id: 37a9e660875f3168
+                    name: Icon
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: YwuDiIbyyF5vfGpt
+                    sectionIds: []
+                sectionIds:
+                  - 37a9e660875f3168
+                config:
+                  gridSettings:
+                    desktop:
+                      37a9e660875f3168:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: transparent
+                  height: 100%
+                  borderRadius: custom:0px
+                  alignContent: start
+            sectionIds:
+              - c29e90aa797f1e8a
+              - 8f6ca404a8890cfa
+            config:
+              gridSettings:
+                desktop:
+                  c29e90aa797f1e8a:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  8f6ca404a8890cfa:
+                    x: 0
+                    y: 0
+                    w: 6
+                    h: 1
+                mobile:
+                  c29e90aa797f1e8a:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  8f6ca404a8890cfa:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: start
+          ca4504d462ad8fdc:
+            id: ca4504d462ad8fdc
+            name: Cards-6
+            component: layout-block
+            sections:
+              9f9904bac4b8d3a3:
+                id: 9f9904bac4b8d3a3
+                name: Title
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              6c38bc5dc474e806:
+                id: 6c38bc5dc474e806
+                name: Icon
+                component: layout-block
+                sections:
+                  f3f0594beead88bb:
+                    id: f3f0594beead88bb
+                    name: Icon
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: YwuDiIbyyF5vfGpt
+                    sectionIds: []
+                sectionIds:
+                  - f3f0594beead88bb
+                config:
+                  gridSettings:
+                    desktop:
+                      f3f0594beead88bb:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: transparent
+                  height: 100%
+                  borderRadius: custom:0px
+                  alignContent: start
+            sectionIds:
+              - 9f9904bac4b8d3a3
+              - 6c38bc5dc474e806
+            config:
+              gridSettings:
+                desktop:
+                  9f9904bac4b8d3a3:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  6c38bc5dc474e806:
+                    x: 0
+                    y: 0
+                    w: 6
+                    h: 1
+                mobile:
+                  9f9904bac4b8d3a3:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  6c38bc5dc474e806:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: start
         sectionIds:
           - 9736a35b6204c1d8
           - c2753e6a35792fc3
           - 4c12062dd7030da4
+          - 95e04be57343246b
+          - bd5002d1be146892
+          - ca4504d462ad8fdc
         config:
           gridSettings:
             desktop:
@@ -427,6 +640,21 @@ sections:
                 y: 0
                 w: 4
                 h: 1
+              95e04be57343246b:
+                x: 0
+                y: 1
+                w: 4
+                h: 1
+              bd5002d1be146892:
+                x: 4
+                y: 1
+                w: 4
+                h: 1
+              ca4504d462ad8fdc:
+                x: 8
+                y: 1
+                w: 4
+                h: 1
             mobile:
               9736a35b6204c1d8:
                 x: 0
@@ -441,6 +669,21 @@ sections:
               4c12062dd7030da4:
                 x: 0
                 y: 2
+                w: 12
+                h: 1
+              95e04be57343246b:
+                x: 0
+                y: 3
+                w: 12
+                h: 1
+              bd5002d1be146892:
+                x: 0
+                y: 4
+                w: 12
+                h: 1
+              ca4504d462ad8fdc:
+                x: 0
+                y: 5
                 w: 12
                 h: 1
           gap: small
@@ -464,303 +707,18 @@ sections:
       gap: normal
       paddingY: none
       paddingX: none
-  1c472f1c0d5b2d5f:
-    id: 1c472f1c0d5b2d5f
-    name: Feature Grid (2x2)_2
-    component: layout-block
-    sections:
-      7ce3682a2095537b:
-        id: 7ce3682a2095537b
-        name: Title
-        component: layout-block
-        sections:
-          3fcd2113b474335b:
-            id: 3fcd2113b474335b
-            name: RichText
-            component: custom-component
-            config:
-              useCache: true
-              componentId: xoHu0J44322kDYc-
-            sectionIds: []
-        sectionIds:
-          - 3fcd2113b474335b
-        config:
-          gap: small
-          paddingX: none
-          gridSettings:
-            desktop:
-              3fcd2113b474335b:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-            mobile:
-              3fcd2113b474335b:
-                id: 3fcd2113b474335b
-          alignContent: start
-      f6ade55eb007f804:
-        id: f6ade55eb007f804
-        name: Cards
-        component: layout-block
-        sections:
-          "5164097510530111":
-            id: "5164097510530111"
-            name: Cards-1
-            component: layout-block
-            sections:
-              8b2f99e2d9684e40:
-                id: 8b2f99e2d9684e40
-                name: RichText
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              4ef5a8f1e8f87f5f:
-                id: 4ef5a8f1e8f87f5f
-                name: Media
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0JPjPs122kaaa-
-                sectionIds: []
-            sectionIds:
-              - 8b2f99e2d9684e40
-              - 4ef5a8f1e8f87f5f
-            config:
-              gridSettings:
-                desktop:
-                  8b2f99e2d9684e40:
-                    x: 0
-                    y: 0
-                    w: 4
-                    h: 1
-                  4ef5a8f1e8f87f5f:
-                    x: 4
-                    y: 0
-                    w: 8
-                    h: 1
-              paddingX: custom:32px
-              gap: normal
-              paddingY: custom:32px
-              background: background.paper
-              border: solid
-              borderRadius: small
-              alignContent: center
-          f9cae8c6eca50e9e:
-            id: f9cae8c6eca50e9e
-            name: Cards-2
-            component: layout-block
-            sections:
-              f262507ce32fcebd:
-                id: f262507ce32fcebd
-                name: RichText
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              8cdc896b98d1d149:
-                id: 8cdc896b98d1d149
-                name: Media
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0JPjPs122kaaa-
-                sectionIds: []
-            sectionIds:
-              - f262507ce32fcebd
-              - 8cdc896b98d1d149
-            config:
-              gridSettings:
-                desktop:
-                  f262507ce32fcebd:
-                    x: 0
-                    y: 0
-                    w: 4
-                    h: 1
-                  8cdc896b98d1d149:
-                    x: 4
-                    y: 0
-                    w: 8
-                    h: 1
-              paddingX: custom:32px
-              gap: normal
-              paddingY: custom:32px
-              background: background.paper
-              border: solid
-              borderRadius: small
-              alignContent: center
-          04fe785cbdf80e9e:
-            id: 04fe785cbdf80e9e
-            name: Cards-3
-            component: layout-block
-            sections:
-              68b65ddda964c9b7:
-                id: 68b65ddda964c9b7
-                name: RichText
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              274d9e0248315cf3:
-                id: 274d9e0248315cf3
-                name: Media
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0JPjPs122kaaa-
-                sectionIds: []
-            sectionIds:
-              - 68b65ddda964c9b7
-              - 274d9e0248315cf3
-            config:
-              gridSettings:
-                desktop:
-                  68b65ddda964c9b7:
-                    x: 0
-                    y: 0
-                    w: 4
-                    h: 1
-                  274d9e0248315cf3:
-                    x: 4
-                    y: 0
-                    w: 8
-                    h: 1
-              paddingX: custom:32px
-              gap: normal
-              paddingY: custom:32px
-              background: background.paper
-              border: solid
-              borderRadius: small
-              alignContent: center
-          a793dd2e1cb266b9:
-            id: a793dd2e1cb266b9
-            name: Cards-4
-            component: layout-block
-            sections:
-              e62cb727ed233501:
-                id: e62cb727ed233501
-                name: RichText
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              a0325b4122b1d56f:
-                id: a0325b4122b1d56f
-                name: Media
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0JPjPs122kaaa-
-                sectionIds: []
-            sectionIds:
-              - e62cb727ed233501
-              - a0325b4122b1d56f
-            config:
-              gridSettings:
-                desktop:
-                  e62cb727ed233501:
-                    x: 0
-                    y: 0
-                    w: 4
-                    h: 1
-                  a0325b4122b1d56f:
-                    x: 4
-                    y: 0
-                    w: 8
-                    h: 1
-              paddingX: custom:32px
-              gap: normal
-              paddingY: custom:32px
-              background: background.paper
-              border: solid
-              borderRadius: small
-              alignContent: center
-        sectionIds:
-          - "5164097510530111"
-          - f9cae8c6eca50e9e
-          - 04fe785cbdf80e9e
-          - a793dd2e1cb266b9
-        config:
-          gridSettings:
-            desktop:
-              "5164097510530111":
-                x: 0
-                y: 0
-                w: 6
-                h: 1
-              f9cae8c6eca50e9e:
-                x: 6
-                y: 0
-                w: 6
-                h: 1
-              04fe785cbdf80e9e:
-                x: 0
-                y: 1
-                w: 6
-                h: 1
-              a793dd2e1cb266b9:
-                x: 6
-                y: 1
-                w: 6
-                h: 1
-            mobile:
-              "5164097510530111":
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-              f9cae8c6eca50e9e:
-                x: 0
-                y: 1
-                w: 12
-                h: 1
-              04fe785cbdf80e9e:
-                x: 0
-                y: 2
-                w: 12
-                h: 1
-              a793dd2e1cb266b9:
-                x: 0
-                y: 3
-                w: 12
-                h: 1
-          gap: small
-          paddingX: none
-    sectionIds:
-      - 7ce3682a2095537b
-      - f6ade55eb007f804
-    config:
-      gridSettings:
-        desktop:
-          f6ade55eb007f804:
-            x: 0
-            y: 1
-            w: 12
-            h: 1
-          7ce3682a2095537b:
-            x: 0
-            y: 0
-            w: 12
-            h: 1
-      gap: normal
-      paddingY: none
-      paddingX: none
-  dd6c4ba4f1e73c06:
-    id: dd6c4ba4f1e73c06
+  0bd9c287b4dac2cd:
+    id: 0bd9c287b4dac2cd
     name: Testimonials/Reviews
     component: layout-block
     sections:
-      459a5cc4b163205e:
-        id: 459a5cc4b163205e
+      3671fed2c6e10a65:
+        id: 3671fed2c6e10a65
         name: Title
         component: layout-block
         sections:
-          5b658d0ac413cd4c:
-            id: 5b658d0ac413cd4c
+          10c868964f4822ae:
+            id: 10c868964f4822ae
             name: LayoutTitle
             component: custom-component
             config:
@@ -768,46 +726,46 @@ sections:
               componentId: xoHu0J44322kDYc-
             sectionIds: []
         sectionIds:
-          - 5b658d0ac413cd4c
+          - 10c868964f4822ae
         config:
           gap: small
           paddingX: none
           alignContent: start
           gridSettings:
             desktop:
-              5b658d0ac413cd4c:
+              10c868964f4822ae:
                 x: 0
                 y: 0
                 w: 12
                 h: 1
             mobile:
-              5b658d0ac413cd4c:
-                id: 5b658d0ac413cd4c
-      049488309074c8a6:
-        id: 049488309074c8a6
+              10c868964f4822ae:
+                id: 10c868964f4822ae
+      9c29689559529814:
+        id: 9c29689559529814
         name: Cards
         component: layout-block
         sections:
-          f71851cc0e9e2639:
-            id: f71851cc0e9e2639
+          319c79081d5e0053:
+            id: 319c79081d5e0053
             name: Cards-1
             component: layout-block
             sections:
-              f19eeffa4f87a133:
-                id: f19eeffa4f87a133
+              1745fad4d7d10773:
+                id: 1745fad4d7d10773
                 name: RichText
                 component: custom-component
                 config:
                   useCache: true
                   componentId: xoHu0J44322kDYc-
                 sectionIds: []
-              ed0657fbb138ba6b:
-                id: ed0657fbb138ba6b
+              a03d602187bbc020:
+                id: a03d602187bbc020
                 name: Section Layout
                 component: layout-block
                 sections:
-                  c3e98bb9966017d0:
-                    id: c3e98bb9966017d0
+                  7303e9b086f8fd03:
+                    id: 7303e9b086f8fd03
                     name: Code
                     component: custom-component
                     config:
@@ -815,11 +773,11 @@ sections:
                       componentId: 2EHGy3vwxlS9JGr2
                     sectionIds: []
                 sectionIds:
-                  - c3e98bb9966017d0
+                  - 7303e9b086f8fd03
                 config:
                   gridSettings:
                     desktop:
-                      c3e98bb9966017d0:
+                      7303e9b086f8fd03:
                         x: 0
                         y: 0
                         w: 12
@@ -827,17 +785,28 @@ sections:
                   borderRadius: small
                   border: terminal
             sectionIds:
-              - f19eeffa4f87a133
-              - ed0657fbb138ba6b
+              - 1745fad4d7d10773
+              - a03d602187bbc020
             config:
               gridSettings:
                 desktop:
-                  f19eeffa4f87a133:
+                  1745fad4d7d10773:
+                    x: 0
+                    y: 0
+                    w: 5
+                    h: 1
+                  a03d602187bbc020:
+                    x: 5
+                    y: 0
+                    w: 7
+                    h: 1
+                mobile:
+                  1745fad4d7d10773:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                  ed0657fbb138ba6b:
+                  a03d602187bbc020:
                     x: 0
                     y: 1
                     w: 12
@@ -848,43 +817,80 @@ sections:
               background: background.paper
               border: solid
               borderRadius: small
-              alignContent: space-between
-          7180500b4acba095:
-            id: 7180500b4acba095
+              alignContent: center
+          620aa118cba6bec6:
+            id: 620aa118cba6bec6
             name: Cards-2
             component: layout-block
             sections:
-              b1b63adc7571b1b6:
-                id: b1b63adc7571b1b6
+              17d0ca38c2a76223:
+                id: 17d0ca38c2a76223
                 name: RichText
                 component: custom-component
                 config:
                   useCache: true
                   componentId: xoHu0J44322kDYc-
                 sectionIds: []
-              c85e815c5fa30b8a:
-                id: c85e815c5fa30b8a
-                name: Media
-                component: custom-component
+              a850e427d53bb266:
+                id: a850e427d53bb266
+                name: Section Layout
+                component: layout-block
+                sections:
+                  e1ca4df9128de60c:
+                    id: e1ca4df9128de60c
+                    name: Section Layout
+                    component: layout-block
+                    sections:
+                      4619faa923121b10:
+                        id: 4619faa923121b10
+                        name: Media
+                        component: custom-component
+                        config:
+                          useCache: true
+                          componentId: xoHu0JPjPs122kaaa-
+                        sectionIds: []
+                    sectionIds:
+                      - 4619faa923121b10
+                    config:
+                      gridSettings:
+                        desktop:
+                          4619faa923121b10:
+                            x: 0
+                            y: 0
+                            w: 12
+                            h: 1
+                      border: shadow-lg
+                      borderRadius: small
+                sectionIds:
+                  - e1ca4df9128de60c
                 config:
-                  useCache: true
-                  componentId: xoHu0JPjPs122kaaa-
-                sectionIds: []
+                  gridSettings:
+                    desktop:
+                      e1ca4df9128de60c:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: linear-gradient(120deg, rgba(96,89,171,1) 0%, rgba(130,125,190,1)
+                    100%)
+                  paddingX: custom:64px
+                  paddingY: custom:48px
+                  borderRadius: small
             sectionIds:
-              - b1b63adc7571b1b6
-              - c85e815c5fa30b8a
+              - 17d0ca38c2a76223
+              - a850e427d53bb266
             config:
               gridSettings:
                 desktop:
-                  b1b63adc7571b1b6:
+                  17d0ca38c2a76223:
+                    x: 8
+                    y: 0
+                    w: 4
+                    h: 1
+                  a850e427d53bb266:
                     x: 0
                     y: 0
-                    w: 12
-                    h: 1
-                  c85e815c5fa30b8a:
-                    x: 0
-                    y: 1
-                    w: 12
+                    w: 8
                     h: 1
               paddingX: custom:32px
               gap: normal
@@ -892,7 +898,334 @@ sections:
               background: background.paper
               border: solid
               borderRadius: small
-              alignContent: space-between
+              alignContent: center
+          bdf91b4a0bada15c:
+            id: bdf91b4a0bada15c
+            name: Cards-3
+            component: layout-block
+            sections:
+              0bd59fc52ea3d747:
+                id: 0bd59fc52ea3d747
+                name: RichText
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              2ef2e24131712d73:
+                id: 2ef2e24131712d73
+                name: Section Layout
+                component: layout-block
+                sections:
+                  124fd48c6d80b891:
+                    id: 124fd48c6d80b891
+                    name: Section Layout
+                    component: layout-block
+                    sections:
+                      f498df07b35232af:
+                        id: f498df07b35232af
+                        name: Media
+                        component: custom-component
+                        config:
+                          useCache: true
+                          componentId: xoHu0JPjPs122kaaa-
+                        sectionIds: []
+                    sectionIds:
+                      - f498df07b35232af
+                    config:
+                      borderRadius: small
+                      border: shadow-lg
+                      gridSettings:
+                        desktop:
+                          f498df07b35232af:
+                            x: 0
+                            y: 0
+                            w: 12
+                            h: 1
+                sectionIds:
+                  - 124fd48c6d80b891
+                config:
+                  paddingX: custom:64px
+                  paddingY: custom:48px
+                  background: linear-gradient(120deg, rgba(95,116,118,1) 0%, rgba(131,158,153,1)
+                    100%)
+                  gridSettings:
+                    desktop:
+                      124fd48c6d80b891:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  borderRadius: small
+            sectionIds:
+              - 0bd59fc52ea3d747
+              - 2ef2e24131712d73
+            config:
+              gridSettings:
+                desktop:
+                  0bd59fc52ea3d747:
+                    x: 0
+                    y: 0
+                    w: 4
+                    h: 1
+                  2ef2e24131712d73:
+                    x: 4
+                    y: 0
+                    w: 8
+                    h: 1
+              paddingX: custom:32px
+              gap: normal
+              paddingY: custom:32px
+              background: background.paper
+              border: solid
+              borderRadius: small
+              alignContent: center
+        sectionIds:
+          - 319c79081d5e0053
+          - 620aa118cba6bec6
+          - bdf91b4a0bada15c
+        config:
+          gridSettings:
+            desktop:
+              319c79081d5e0053:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+              620aa118cba6bec6:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+              bdf91b4a0bada15c:
+                x: 0
+                y: 2
+                w: 12
+                h: 1
+            mobile:
+              319c79081d5e0053:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+              620aa118cba6bec6:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+              bdf91b4a0bada15c:
+                x: 0
+                y: 2
+                w: 12
+                h: 1
+          gap: normal
+          paddingX: none
+    sectionIds:
+      - 3671fed2c6e10a65
+      - 9c29689559529814
+    config:
+      gridSettings:
+        desktop:
+          9c29689559529814:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+          3671fed2c6e10a65:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      gap: normal
+      paddingY: none
+      paddingX: none
+  1b88992adea4de75:
+    id: 1b88992adea4de75
+    name: Testimonials/Reviews
+    component: layout-block
+    sections:
+      8a7dde777cbf6cbe:
+        id: 8a7dde777cbf6cbe
+        name: Title
+        component: layout-block
+        sections:
+          fc8aca2223685a5f:
+            id: fc8aca2223685a5f
+            name: LayoutTitle
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+        sectionIds:
+          - fc8aca2223685a5f
+        config:
+          gap: small
+          paddingX: none
+          alignContent: start
+          gridSettings:
+            desktop:
+              fc8aca2223685a5f:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+            mobile:
+              fc8aca2223685a5f:
+                id: fc8aca2223685a5f
+      3eceea61e0feb3a0:
+        id: 3eceea61e0feb3a0
+        name: Cards
+        component: layout-block
+        sections:
+          48373436f58174ce:
+            id: 48373436f58174ce
+            name: Cards-1
+            component: layout-block
+            sections:
+              188bf83f2774511b:
+                id: 188bf83f2774511b
+                name: Title
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              217c8a0c162c7e73:
+                id: 217c8a0c162c7e73
+                name: Icon
+                component: layout-block
+                sections:
+                  9a4665f91027d3f7:
+                    id: 9a4665f91027d3f7
+                    name: Icon
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: YwuDiIbyyF5vfGpt
+                    sectionIds: []
+                sectionIds:
+                  - 9a4665f91027d3f7
+                config:
+                  gridSettings:
+                    desktop:
+                      9a4665f91027d3f7:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: transparent
+                  height: 100%
+                  borderRadius: custom:0px
+                  alignContent: start
+            sectionIds:
+              - 188bf83f2774511b
+              - 217c8a0c162c7e73
+            config:
+              gridSettings:
+                desktop:
+                  188bf83f2774511b:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  217c8a0c162c7e73:
+                    x: 0
+                    y: 0
+                    w: 6
+                    h: 1
+                mobile:
+                  188bf83f2774511b:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  217c8a0c162c7e73:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: start
+          2700bbe606496b87:
+            id: 2700bbe606496b87
+            name: Cards-2
+            component: layout-block
+            sections:
+              3d914af2157737bc:
+                id: 3d914af2157737bc
+                name: Title
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              82fbb288a071de99:
+                id: 82fbb288a071de99
+                name: Icon
+                component: layout-block
+                sections:
+                  834e8f1413211851:
+                    id: 834e8f1413211851
+                    name: Icon
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: YwuDiIbyyF5vfGpt
+                    sectionIds: []
+                sectionIds:
+                  - 834e8f1413211851
+                config:
+                  gridSettings:
+                    desktop:
+                      834e8f1413211851:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: transparent
+                  height: 100%
+                  borderRadius: custom:0px
+                  alignContent: start
+            sectionIds:
+              - 3d914af2157737bc
+              - 82fbb288a071de99
+            config:
+              gridSettings:
+                desktop:
+                  3d914af2157737bc:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  82fbb288a071de99:
+                    x: 0
+                    y: 0
+                    w: 6
+                    h: 1
+                mobile:
+                  3d914af2157737bc:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  82fbb288a071de99:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: start
           ade1629eb50bfd78:
             id: ade1629eb50bfd78
             name: Cards-3
@@ -968,18 +1301,34 @@ sections:
               border: solid
               alignContent: start
         sectionIds:
-          - f71851cc0e9e2639
-          - 7180500b4acba095
+          - 48373436f58174ce
+          - 2700bbe606496b87
           - ade1629eb50bfd78
         config:
           gridSettings:
             desktop:
-              f71851cc0e9e2639:
+              48373436f58174ce:
+                x: 0
+                y: 0
+                w: 4
+                h: 1
+              2700bbe606496b87:
+                x: 4
+                y: 0
+                w: 4
+                h: 1
+              ade1629eb50bfd78:
+                x: 8
+                y: 0
+                w: 4
+                h: 1
+            mobile:
+              48373436f58174ce:
                 x: 0
                 y: 0
                 w: 12
                 h: 1
-              7180500b4acba095:
+              2700bbe606496b87:
                 x: 0
                 y: 1
                 w: 12
@@ -989,36 +1338,20 @@ sections:
                 y: 2
                 w: 12
                 h: 1
-            mobile:
-              f71851cc0e9e2639:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-              7180500b4acba095:
-                x: 0
-                y: 1
-                w: 12
-                h: 1
-              ade1629eb50bfd78:
-                x: 0
-                y: 2
-                w: 12
-                h: 1
-          gap: normal
+          gap: small
           paddingX: none
     sectionIds:
-      - 459a5cc4b163205e
-      - 049488309074c8a6
+      - 8a7dde777cbf6cbe
+      - 3eceea61e0feb3a0
     config:
       gridSettings:
         desktop:
-          049488309074c8a6:
+          3eceea61e0feb3a0:
             x: 0
             y: 1
             w: 12
             h: 1
-          459a5cc4b163205e:
+          8a7dde777cbf6cbe:
             x: 0
             y: 0
             w: 12
@@ -1026,385 +1359,52 @@ sections:
       gap: normal
       paddingY: none
       paddingX: none
-  50fc12ab8b75ac40:
-    id: 50fc12ab8b75ac40
-    name: Testimonials/Reviews
+  cf17a77ca939f164:
+    id: cf17a77ca939f164
+    name: Bento Grids_2
     component: layout-block
     sections:
-      f4c8c07152aa7dae:
-        id: f4c8c07152aa7dae
-        name: Title
-        component: layout-block
-        sections:
-          66660b01fa5df1ed:
-            id: 66660b01fa5df1ed
-            name: LayoutTitle
-            component: custom-component
-            config:
-              useCache: true
-              componentId: xoHu0J44322kDYc-
-            sectionIds: []
-        sectionIds:
-          - 66660b01fa5df1ed
+      f3c7a1cec975d8f2:
+        id: f3c7a1cec975d8f2
+        name: RichText
+        component: custom-component
         config:
-          gap: small
-          paddingX: none
-          alignContent: start
-          gridSettings:
-            desktop:
-              66660b01fa5df1ed:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-            mobile:
-              66660b01fa5df1ed:
-                id: 66660b01fa5df1ed
-      255a120fd46a5e1b:
-        id: 255a120fd46a5e1b
+          useCache: true
+          componentId: xoHu0J44322kDYc-
+        sectionIds: []
+      6c4ca919bdb758be:
+        id: 6c4ca919bdb758be
         name: Cards
         component: layout-block
         sections:
-          4091ced2dd07baa3:
-            id: 4091ced2dd07baa3
+          52724fa52af7131c:
+            id: 52724fa52af7131c
             name: Cards-1
             component: layout-block
             sections:
-              63c93083d2c91977:
-                id: 63c93083d2c91977
-                name: Title
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              2f692cc0f6bc62f8:
-                id: 2f692cc0f6bc62f8
-                name: Icon
-                component: layout-block
-                sections:
-                  44e9ab7901339db4:
-                    id: 44e9ab7901339db4
-                    name: Icon
-                    component: custom-component
-                    config:
-                      useCache: true
-                      componentId: YwuDiIbyyF5vfGpt
-                    sectionIds: []
-                sectionIds:
-                  - 44e9ab7901339db4
-                config:
-                  gridSettings:
-                    desktop:
-                      44e9ab7901339db4:
-                        x: 0
-                        y: 0
-                        w: 12
-                        h: 1
-                  background: transparent
-                  height: 100%
-                  borderRadius: custom:0px
-                  alignContent: start
-            sectionIds:
-              - 63c93083d2c91977
-              - 2f692cc0f6bc62f8
-            config:
-              gridSettings:
-                desktop:
-                  63c93083d2c91977:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                  2f692cc0f6bc62f8:
-                    x: 0
-                    y: 0
-                    w: 6
-                    h: 1
-                mobile:
-                  63c93083d2c91977:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                  2f692cc0f6bc62f8:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-              background: background.paper
-              paddingX: custom:32px
-              paddingY: custom:32px
-              borderRadius: small
-              gap: normal
-              border: solid
-              alignContent: start
-          8ba38d4d8d1c3e4c:
-            id: 8ba38d4d8d1c3e4c
-            name: Cards-2
-            component: layout-block
-            sections:
-              f9fc8ddb14ac4d98:
-                id: f9fc8ddb14ac4d98
-                name: Title
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              7569df725d2b56a0:
-                id: 7569df725d2b56a0
-                name: Icon
-                component: layout-block
-                sections:
-                  8c46b4e66710e195:
-                    id: 8c46b4e66710e195
-                    name: Icon
-                    component: custom-component
-                    config:
-                      useCache: true
-                      componentId: YwuDiIbyyF5vfGpt
-                    sectionIds: []
-                sectionIds:
-                  - 8c46b4e66710e195
-                config:
-                  gridSettings:
-                    desktop:
-                      8c46b4e66710e195:
-                        x: 0
-                        y: 0
-                        w: 12
-                        h: 1
-                  background: transparent
-                  height: 100%
-                  borderRadius: custom:0px
-                  alignContent: start
-            sectionIds:
-              - f9fc8ddb14ac4d98
-              - 7569df725d2b56a0
-            config:
-              gridSettings:
-                desktop:
-                  f9fc8ddb14ac4d98:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                  7569df725d2b56a0:
-                    x: 0
-                    y: 0
-                    w: 6
-                    h: 1
-                mobile:
-                  f9fc8ddb14ac4d98:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                  7569df725d2b56a0:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-              background: background.paper
-              paddingX: custom:32px
-              paddingY: custom:32px
-              borderRadius: small
-              gap: normal
-              border: solid
-              alignContent: start
-          2d40676026b5e66f:
-            id: 2d40676026b5e66f
-            name: Cards-3
-            component: layout-block
-            sections:
-              af3058586d48a920:
-                id: af3058586d48a920
-                name: Title
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              03b4bfa930c85116:
-                id: 03b4bfa930c85116
-                name: Icon
-                component: layout-block
-                sections:
-                  3374e02e496ee2da:
-                    id: 3374e02e496ee2da
-                    name: Icon
-                    component: custom-component
-                    config:
-                      useCache: true
-                      componentId: YwuDiIbyyF5vfGpt
-                    sectionIds: []
-                sectionIds:
-                  - 3374e02e496ee2da
-                config:
-                  gridSettings:
-                    desktop:
-                      3374e02e496ee2da:
-                        x: 0
-                        y: 0
-                        w: 12
-                        h: 1
-                  background: transparent
-                  height: 100%
-                  borderRadius: custom:0px
-                  alignContent: start
-            sectionIds:
-              - af3058586d48a920
-              - 03b4bfa930c85116
-            config:
-              gridSettings:
-                desktop:
-                  af3058586d48a920:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                  03b4bfa930c85116:
-                    x: 0
-                    y: 0
-                    w: 6
-                    h: 1
-                mobile:
-                  af3058586d48a920:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                  03b4bfa930c85116:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-              background: background.paper
-              paddingX: custom:32px
-              paddingY: custom:32px
-              borderRadius: small
-              gap: normal
-              border: solid
-              alignContent: start
-        sectionIds:
-          - 4091ced2dd07baa3
-          - 8ba38d4d8d1c3e4c
-          - 2d40676026b5e66f
-        config:
-          gridSettings:
-            desktop:
-              4091ced2dd07baa3:
-                x: 0
-                y: 0
-                w: 4
-                h: 1
-              8ba38d4d8d1c3e4c:
-                x: 4
-                y: 0
-                w: 4
-                h: 1
-              2d40676026b5e66f:
-                x: 8
-                y: 0
-                w: 4
-                h: 1
-            mobile:
-              4091ced2dd07baa3:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-              8ba38d4d8d1c3e4c:
-                x: 0
-                y: 1
-                w: 12
-                h: 1
-              2d40676026b5e66f:
-                x: 0
-                y: 2
-                w: 12
-                h: 1
-          gap: small
-          paddingX: none
-    sectionIds:
-      - f4c8c07152aa7dae
-      - 255a120fd46a5e1b
-    config:
-      gridSettings:
-        desktop:
-          255a120fd46a5e1b:
-            x: 0
-            y: 1
-            w: 12
-            h: 1
-          f4c8c07152aa7dae:
-            x: 0
-            y: 0
-            w: 12
-            h: 1
-      gap: normal
-      paddingY: none
-      paddingX: none
-  cf6ecfd558c8e466:
-    id: cf6ecfd558c8e466
-    name: Feature Grid (2x2)_2
-    component: layout-block
-    sections:
-      2fed5b65424fc44f:
-        id: 2fed5b65424fc44f
-        name: Title
-        component: layout-block
-        sections:
-          d2e1e66a22867eb0:
-            id: d2e1e66a22867eb0
-            name: RichText
-            component: custom-component
-            config:
-              useCache: true
-              componentId: xoHu0J44322kDYc-
-            sectionIds: []
-        sectionIds:
-          - d2e1e66a22867eb0
-        config:
-          gap: small
-          paddingX: none
-          gridSettings:
-            desktop:
-              d2e1e66a22867eb0:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-            mobile:
-              d2e1e66a22867eb0:
-                id: d2e1e66a22867eb0
-          alignContent: start
-      9381932ef68c65b7:
-        id: 9381932ef68c65b7
-        name: Cards
-        component: layout-block
-        sections:
-          da05f6cf7a4a1506:
-            id: da05f6cf7a4a1506
-            name: Cards-1
-            component: layout-block
-            sections:
-              7ca373dc4603138a:
-                id: 7ca373dc4603138a
+              ade4408a99f6541f:
+                id: ade4408a99f6541f
                 name: Comment
                 component: custom-component
                 config:
                   useCache: true
                   componentId: xoHu0J44322kDYc-
                 sectionIds: []
-              2d06a1e45b74ddf6:
-                id: 2d06a1e45b74ddf6
+              d2a7dbc3f9f464f9:
+                id: d2a7dbc3f9f464f9
                 name: User
                 component: layout-block
                 sections:
-                  1117707a75468829:
-                    id: 1117707a75468829
+                  b3f203b852ecd51a:
+                    id: b3f203b852ecd51a
+                    name: Media
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: xoHu0JPjPs122kaaa-
+                    sectionIds: []
+                  d06f12606efb71bd:
+                    id: d06f12606efb71bd
                     name: RichText
                     component: custom-component
                     config:
@@ -1412,80 +1412,99 @@ sections:
                       componentId: xoHu0J44322kDYc-
                     sectionIds: []
                 sectionIds:
-                  - 1117707a75468829
+                  - b3f203b852ecd51a
+                  - d06f12606efb71bd
                 config:
                   gridSettings:
                     desktop:
-                      1117707a75468829:
+                      b3f203b852ecd51a:
                         x: 0
                         y: 0
+                        w: 6
+                        h: 1
+                      d06f12606efb71bd:
+                        x: 0
+                        y: 1
                         w: 10
                         h: 1
                     mobile:
-                      1117707a75468829:
+                      b3f203b852ecd51a:
                         x: 0
                         y: 0
+                        w: 6
+                        h: 1
+                      d06f12606efb71bd:
+                        x: 0
+                        y: 1
                         w: 10
                         h: 1
                   gap: small
                   paddingY: none
                   alignContent: center
             sectionIds:
-              - 7ca373dc4603138a
-              - 2d06a1e45b74ddf6
+              - ade4408a99f6541f
+              - d2a7dbc3f9f464f9
             config:
               gridSettings:
                 desktop:
-                  7ca373dc4603138a:
+                  ade4408a99f6541f:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                  2d06a1e45b74ddf6:
+                  d2a7dbc3f9f464f9:
                     x: 0
                     y: 1
                     w: 12
                     h: 1
                 mobile:
-                  1117707a75468829:
+                  d06f12606efb71bd:
                     x: 0
                     y: 1
                     w: 12
                     h: 1
-                    id: 1117707a75468829
-                  aabaccf37b8fb640:
+                    id: d06f12606efb71bd
+                  b3f203b852ecd51a:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                    id: aabaccf37b8fb640
-              background: background.paper
+                    id: b3f203b852ecd51a
+              background: transparent
               paddingX: custom:32px
               paddingY: custom:32px
               borderRadius: small
               gap: large
               border: solid
               alignContent: space-between
-          fb342c39457618dd:
-            id: fb342c39457618dd
+          767c9a30e097793f:
+            id: 767c9a30e097793f
             name: Cards-2
             component: layout-block
             sections:
-              d0c54f60a5f10b32:
-                id: d0c54f60a5f10b32
+              12ca7db0c68207b4:
+                id: 12ca7db0c68207b4
                 name: Comment
                 component: custom-component
                 config:
                   useCache: true
                   componentId: xoHu0J44322kDYc-
                 sectionIds: []
-              6e92d1b0493b5937:
-                id: 6e92d1b0493b5937
+              627a149b3e0a83cf:
+                id: 627a149b3e0a83cf
                 name: User
                 component: layout-block
                 sections:
-                  430fc352c0a18bd0:
-                    id: 430fc352c0a18bd0
+                  0824b092f543d47f:
+                    id: 0824b092f543d47f
+                    name: Media
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: xoHu0JPjPs122kaaa-
+                    sectionIds: []
+                  5a89bcb6979d3767:
+                    id: 5a89bcb6979d3767
                     name: RichText
                     component: custom-component
                     config:
@@ -1493,53 +1512,64 @@ sections:
                       componentId: xoHu0J44322kDYc-
                     sectionIds: []
                 sectionIds:
-                  - 430fc352c0a18bd0
+                  - 0824b092f543d47f
+                  - 5a89bcb6979d3767
                 config:
                   gridSettings:
                     desktop:
-                      430fc352c0a18bd0:
+                      0824b092f543d47f:
                         x: 0
                         y: 0
+                        w: 6
+                        h: 1
+                      5a89bcb6979d3767:
+                        x: 0
+                        y: 1
                         w: 10
                         h: 1
                     mobile:
-                      430fc352c0a18bd0:
+                      0824b092f543d47f:
                         x: 0
                         y: 0
+                        w: 6
+                        h: 1
+                      5a89bcb6979d3767:
+                        x: 0
+                        y: 1
                         w: 10
                         h: 1
                   gap: small
                   paddingY: none
                   alignContent: center
             sectionIds:
-              - d0c54f60a5f10b32
-              - 6e92d1b0493b5937
+              - 12ca7db0c68207b4
+              - 627a149b3e0a83cf
             config:
               gridSettings:
                 desktop:
-                  d0c54f60a5f10b32:
+                  12ca7db0c68207b4:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                  6e92d1b0493b5937:
+                  627a149b3e0a83cf:
                     x: 0
                     y: 1
                     w: 12
                     h: 1
                 mobile:
-                  430fc352c0a18bd0:
+                  5a89bcb6979d3767:
                     x: 0
                     y: 1
                     w: 12
                     h: 1
-                    id: 430fc352c0a18bd0
-                  66ced8fafd1856db:
+                    id: 5a89bcb6979d3767
+                  0824b092f543d47f:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                    id: 66ced8fafd1856db
+                    id: 0824b092f543d47f
               background: background.paper
               paddingX: custom:32px
               paddingY: custom:32px
@@ -1548,65 +1578,131 @@ sections:
               border: solid
               alignContent: space-between
         sectionIds:
-          - da05f6cf7a4a1506
-          - fb342c39457618dd
+          - 52724fa52af7131c
+          - 767c9a30e097793f
         config:
           gridSettings:
             desktop:
-              da05f6cf7a4a1506:
+              52724fa52af7131c:
                 x: 0
                 y: 0
-                w: 6
+                w: 5
                 h: 1
-              fb342c39457618dd:
-                x: 6
+              767c9a30e097793f:
+                x: 5
                 y: 0
-                w: 6
+                w: 7
                 h: 1
             mobile:
-              da05f6cf7a4a1506:
+              52724fa52af7131c:
                 x: 0
                 y: 0
                 w: 12
                 h: 1
-              fb342c39457618dd:
+              767c9a30e097793f:
                 x: 0
                 y: 1
                 w: 12
                 h: 1
           gap: small
-          paddingX: none
     sectionIds:
-      - 2fed5b65424fc44f
-      - 9381932ef68c65b7
+      - f3c7a1cec975d8f2
+      - 6c4ca919bdb758be
     config:
       gridSettings:
         desktop:
-          9381932ef68c65b7:
+          6c4ca919bdb758be:
             x: 0
             y: 1
             w: 12
             h: 1
-          2fed5b65424fc44f:
+          f3c7a1cec975d8f2:
             x: 0
             y: 0
             w: 12
             h: 1
+        mobile:
+          c19202fce037961e:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+          cb8a61a00e973f77:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+      paddingX: none
       gap: normal
       paddingY: none
-      paddingX: none
-  84fb3e2b322e7882:
-    id: 84fb3e2b322e7882
+  8c56db9436ed1903:
+    id: 8c56db9436ed1903
+    name: Section Layout
+    component: layout-block
+    sections:
+      26df9396ee831600:
+        id: 26df9396ee831600
+        name: RichText
+        component: custom-component
+        config:
+          useCache: true
+          componentId: xoHu0J44322kDYc-
+        sectionIds: []
+      13af235ca807192f:
+        id: 13af235ca807192f
+        name: Section Layout
+        component: layout-block
+        sections:
+          a2b46a401c75aeeb:
+            id: a2b46a401c75aeeb
+            name: ComparisonTable
+            component: custom-component
+            config:
+              useCache: true
+              componentId: -b71JoAi_lXSY8MP
+            sectionIds: []
+        sectionIds:
+          - a2b46a401c75aeeb
+        config:
+          gridSettings:
+            desktop:
+              a2b46a401c75aeeb:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+          borderRadius: small
+    sectionIds:
+      - 26df9396ee831600
+      - 13af235ca807192f
+    config:
+      gridSettings:
+        desktop:
+          26df9396ee831600:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+          13af235ca807192f:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+      gap: normal
+      paddingY: none
+      textAlign: left
+  903810bcfdcc518c:
+    id: 903810bcfdcc518c
     name: Testimonials/Reviews
     component: layout-block
     sections:
-      c8e9bd68cae202fb:
-        id: c8e9bd68cae202fb
+      8d3d7f806799a591:
+        id: 8d3d7f806799a591
         name: Title
         component: layout-block
         sections:
-          b01f464fa7de016c:
-            id: b01f464fa7de016c
+          bea6dca7544a05f3:
+            id: bea6dca7544a05f3
             name: LayoutTitle
             component: custom-component
             config:
@@ -1614,321 +1710,46 @@ sections:
               componentId: xoHu0J44322kDYc-
             sectionIds: []
         sectionIds:
-          - b01f464fa7de016c
+          - bea6dca7544a05f3
         config:
           gap: small
           paddingX: none
           alignContent: start
           gridSettings:
             desktop:
-              b01f464fa7de016c:
+              bea6dca7544a05f3:
                 x: 0
                 y: 0
                 w: 12
                 h: 1
             mobile:
-              b01f464fa7de016c:
-                id: b01f464fa7de016c
-      8a28bf6518114117:
-        id: 8a28bf6518114117
+              bea6dca7544a05f3:
+                id: bea6dca7544a05f3
+      f4f0b57377fa3d64:
+        id: f4f0b57377fa3d64
         name: Cards
         component: layout-block
         sections:
-          844b2de5be190615:
-            id: 844b2de5be190615
+          c6b06d5805735b5a:
+            id: c6b06d5805735b5a
             name: Cards-1
             component: layout-block
             sections:
-              cd0ad5bae350b22b:
-                id: cd0ad5bae350b22b
-                name: Main data
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              e45b0a7548794636:
-                id: e45b0a7548794636
-                name: Description
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-            sectionIds:
-              - cd0ad5bae350b22b
-              - e45b0a7548794636
-            config:
-              gridSettings:
-                desktop:
-                  cd0ad5bae350b22b:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                  e45b0a7548794636:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                mobile:
-                  zf1s9y77l821pofu:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                    id: zf1s9y77l821pofu
-                  do35jzobe9fv1z8i:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                    id: do35jzobe9fv1z8i
-                  cd0ad5bae350b22b:
-                    id: cd0ad5bae350b22b
-              background: background.paper
-              paddingX: custom:32px
-              paddingY: custom:32px
-              borderRadius: small
-              gap: none
-              border: solid
-              alignContent: start
-          86600ca4a3844a11:
-            id: 86600ca4a3844a11
-            name: Cards-2
-            component: layout-block
-            sections:
-              a055d68cd456bba3:
-                id: a055d68cd456bba3
-                name: Main data
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              7421d42c2765f9b6:
-                id: 7421d42c2765f9b6
-                name: Description
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-            sectionIds:
-              - a055d68cd456bba3
-              - 7421d42c2765f9b6
-            config:
-              gridSettings:
-                desktop:
-                  a055d68cd456bba3:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                  7421d42c2765f9b6:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                mobile:
-                  zf1s9y77l821pofu:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                    id: zf1s9y77l821pofu
-                  do35jzobe9fv1z8i:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                    id: do35jzobe9fv1z8i
-                  a055d68cd456bba3:
-                    id: a055d68cd456bba3
-              background: background.paper
-              paddingX: custom:32px
-              paddingY: custom:32px
-              borderRadius: small
-              gap: none
-              border: solid
-              alignContent: start
-          a25438a99d36b575:
-            id: a25438a99d36b575
-            name: Cards-3
-            component: layout-block
-            sections:
-              cebc38eba7da18fc:
-                id: cebc38eba7da18fc
-                name: Main data
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-              3f6debc8ca7cd9a6:
-                id: 3f6debc8ca7cd9a6
-                name: Description
-                component: custom-component
-                config:
-                  useCache: true
-                  componentId: xoHu0J44322kDYc-
-                sectionIds: []
-            sectionIds:
-              - cebc38eba7da18fc
-              - 3f6debc8ca7cd9a6
-            config:
-              gridSettings:
-                desktop:
-                  cebc38eba7da18fc:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                  3f6debc8ca7cd9a6:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                mobile:
-                  zf1s9y77l821pofu:
-                    x: 0
-                    y: 1
-                    w: 12
-                    h: 1
-                    id: zf1s9y77l821pofu
-                  do35jzobe9fv1z8i:
-                    x: 0
-                    y: 0
-                    w: 12
-                    h: 1
-                    id: do35jzobe9fv1z8i
-                  cebc38eba7da18fc:
-                    id: cebc38eba7da18fc
-              background: background.paper
-              paddingX: custom:32px
-              paddingY: custom:32px
-              borderRadius: small
-              gap: none
-              border: solid
-              alignContent: start
-        sectionIds:
-          - 844b2de5be190615
-          - 86600ca4a3844a11
-          - a25438a99d36b575
-        config:
-          gridSettings:
-            desktop:
-              844b2de5be190615:
-                x: 0
-                y: 0
-                w: 4
-                h: 1
-              86600ca4a3844a11:
-                x: 4
-                y: 0
-                w: 4
-                h: 1
-              a25438a99d36b575:
-                x: 8
-                y: 0
-                w: 4
-                h: 1
-            mobile:
-              844b2de5be190615:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-              86600ca4a3844a11:
-                x: 0
-                y: 1
-                w: 12
-                h: 1
-              a25438a99d36b575:
-                x: 0
-                y: 2
-                w: 12
-                h: 1
-          gap: small
-          paddingX: none
-    sectionIds:
-      - c8e9bd68cae202fb
-      - 8a28bf6518114117
-    config:
-      gridSettings:
-        desktop:
-          8a28bf6518114117:
-            x: 0
-            y: 1
-            w: 12
-            h: 1
-          c8e9bd68cae202fb:
-            x: 0
-            y: 0
-            w: 12
-            h: 1
-      gap: normal
-      paddingY: none
-      paddingX: none
-  bbd2faf209641be9:
-    id: bbd2faf209641be9
-    name: Testimonials/Reviews
-    component: layout-block
-    sections:
-      2198685485ab13f4:
-        id: 2198685485ab13f4
-        name: Title
-        component: layout-block
-        sections:
-          20ba94fd869bf041:
-            id: 20ba94fd869bf041
-            name: LayoutTitle
-            component: custom-component
-            config:
-              useCache: true
-              componentId: xoHu0J44322kDYc-
-            sectionIds: []
-        sectionIds:
-          - 20ba94fd869bf041
-        config:
-          gap: small
-          paddingX: none
-          alignContent: start
-          gridSettings:
-            desktop:
-              20ba94fd869bf041:
-                x: 0
-                y: 0
-                w: 12
-                h: 1
-            mobile:
-              20ba94fd869bf041:
-                id: 20ba94fd869bf041
-      d663ce840357395d:
-        id: d663ce840357395d
-        name: Cards
-        component: layout-block
-        sections:
-          b72cf359999ad0cc:
-            id: b72cf359999ad0cc
-            name: Cards-1
-            component: layout-block
-            sections:
-              817182083c864ca7:
-                id: 817182083c864ca7
+              885bcd5e27cdecdc:
+                id: 885bcd5e27cdecdc
                 name: RichText
                 component: custom-component
                 config:
                   useCache: true
                   componentId: xoHu0J44322kDYc-
                 sectionIds: []
-              9ec78c70038a1d4b:
-                id: 9ec78c70038a1d4b
+              0c07afe34c1ec952:
+                id: 0c07afe34c1ec952
                 name: Section Layout
                 component: layout-block
                 sections:
-                  a82e1b29031cca63:
-                    id: a82e1b29031cca63
+                  2002969bcdca7cd8:
+                    id: 2002969bcdca7cd8
                     name: Code
                     component: custom-component
                     config:
@@ -1936,11 +1757,11 @@ sections:
                       componentId: 2EHGy3vwxlS9JGr2
                     sectionIds: []
                 sectionIds:
-                  - a82e1b29031cca63
+                  - 2002969bcdca7cd8
                 config:
                   gridSettings:
                     desktop:
-                      a82e1b29031cca63:
+                      2002969bcdca7cd8:
                         x: 0
                         y: 0
                         w: 12
@@ -1948,17 +1769,17 @@ sections:
                   borderRadius: small
                   border: terminal
             sectionIds:
-              - 817182083c864ca7
-              - 9ec78c70038a1d4b
+              - 885bcd5e27cdecdc
+              - 0c07afe34c1ec952
             config:
               gridSettings:
                 desktop:
-                  817182083c864ca7:
+                  885bcd5e27cdecdc:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                  9ec78c70038a1d4b:
+                  0c07afe34c1ec952:
                     x: 0
                     y: 1
                     w: 12
@@ -1970,26 +1791,26 @@ sections:
               border: solid
               borderRadius: small
               alignContent: space-between
-          526686ef9c7eddb7:
-            id: 526686ef9c7eddb7
+          8eab50e1265804ec:
+            id: 8eab50e1265804ec
             name: Cards-2
             component: layout-block
             sections:
-              4e2134a6e3b4cab7:
-                id: 4e2134a6e3b4cab7
+              44e748222ddf4dc7:
+                id: 44e748222ddf4dc7
                 name: RichText
                 component: custom-component
                 config:
                   useCache: true
                   componentId: xoHu0J44322kDYc-
                 sectionIds: []
-              b9b5eb98692999de:
-                id: b9b5eb98692999de
+              5eef305fef3650c6:
+                id: 5eef305fef3650c6
                 name: Section Layout
                 component: layout-block
                 sections:
-                  c2d7f55c5df20d3e:
-                    id: c2d7f55c5df20d3e
+                  223034d6e9b6a8b8:
+                    id: 223034d6e9b6a8b8
                     name: Code
                     component: custom-component
                     config:
@@ -1997,11 +1818,11 @@ sections:
                       componentId: 2EHGy3vwxlS9JGr2
                     sectionIds: []
                 sectionIds:
-                  - c2d7f55c5df20d3e
+                  - 223034d6e9b6a8b8
                 config:
                   gridSettings:
                     desktop:
-                      c2d7f55c5df20d3e:
+                      223034d6e9b6a8b8:
                         x: 0
                         y: 0
                         w: 12
@@ -2009,17 +1830,17 @@ sections:
                   borderRadius: small
                   border: terminal
             sectionIds:
-              - 4e2134a6e3b4cab7
-              - b9b5eb98692999de
+              - 44e748222ddf4dc7
+              - 5eef305fef3650c6
             config:
               gridSettings:
                 desktop:
-                  4e2134a6e3b4cab7:
+                  44e748222ddf4dc7:
                     x: 0
                     y: 0
                     w: 12
                     h: 1
-                  b9b5eb98692999de:
+                  5eef305fef3650c6:
                     x: 0
                     y: 1
                     w: 12
@@ -2032,28 +1853,28 @@ sections:
               borderRadius: small
               alignContent: space-between
         sectionIds:
-          - b72cf359999ad0cc
-          - 526686ef9c7eddb7
+          - c6b06d5805735b5a
+          - 8eab50e1265804ec
         config:
           gridSettings:
             desktop:
-              b72cf359999ad0cc:
+              c6b06d5805735b5a:
                 x: 0
                 y: 0
                 w: 12
                 h: 1
-              526686ef9c7eddb7:
+              8eab50e1265804ec:
                 x: 0
                 y: 1
                 w: 12
                 h: 1
             mobile:
-              b72cf359999ad0cc:
+              c6b06d5805735b5a:
                 x: 0
                 y: 0
                 w: 12
                 h: 1
-              526686ef9c7eddb7:
+              8eab50e1265804ec:
                 x: 0
                 y: 1
                 w: 12
@@ -2061,17 +1882,17 @@ sections:
           gap: normal
           paddingX: none
     sectionIds:
-      - 2198685485ab13f4
-      - d663ce840357395d
+      - 8d3d7f806799a591
+      - f4f0b57377fa3d64
     config:
       gridSettings:
         desktop:
-          d663ce840357395d:
+          f4f0b57377fa3d64:
             x: 0
             y: 1
             w: 12
             h: 1
-          2198685485ab13f4:
+          8d3d7f806799a591:
             x: 0
             y: 0
             w: 12
@@ -2079,21 +1900,21 @@ sections:
       gap: normal
       paddingY: none
       paddingX: none
-  bb8fc55581526f4e:
-    id: bb8fc55581526f4e
+  32f70d5a215033d4:
+    id: 32f70d5a215033d4
     name: FAQs_2
     component: layout-block
     sections:
-      a5b3aa477bc1560a:
-        id: a5b3aa477bc1560a
+      6f16c123f36996db:
+        id: 6f16c123f36996db
         name: Title
         component: custom-component
         config:
           useCache: true
           componentId: xoHu0J44322kDYc-
         sectionIds: []
-      33de34a3c038929a:
-        id: 33de34a3c038929a
+      c964024cd4f939a2:
+        id: c964024cd4f939a2
         name: FaqComponentV2
         component: custom-component
         config:
@@ -2101,17 +1922,17 @@ sections:
           componentId: 4MikfrDpecX9hUD6
         sectionIds: []
     sectionIds:
-      - a5b3aa477bc1560a
-      - 33de34a3c038929a
+      - 6f16c123f36996db
+      - c964024cd4f939a2
     config:
       gridSettings:
         desktop:
-          33de34a3c038929a:
+          c964024cd4f939a2:
             x: 0
             y: 1
             w: 12
             h: 1
-          a5b3aa477bc1560a:
+          6f16c123f36996db:
             x: 0
             y: 0
             w: 12
@@ -2119,26 +1940,26 @@ sections:
       paddingX: none
       gap: normal
       paddingY: none
-  e373c304172d1606:
-    id: e373c304172d1606
+  c59628db92205485:
+    id: c59628db92205485
     name: Full Background Hero
     component: layout-block
     sections:
-      dbaf6670113f90eb:
-        id: dbaf6670113f90eb
+      bc37d8feb6e5ca14:
+        id: bc37d8feb6e5ca14
         name: CTA
         component: layout-block
         sections:
-          d09b7818c7690ba7:
-            id: d09b7818c7690ba7
+          546b53d9736d866f:
+            id: 546b53d9736d866f
             name: Description
             component: custom-component
             config:
               useCache: true
               componentId: xoHu0J44322kDYc-
             sectionIds: []
-          a87e209e42b406cd:
-            id: a87e209e42b406cd
+          713cf5a8b823e5f4:
+            id: 713cf5a8b823e5f4
             name: Action
             component: custom-component
             config:
@@ -2146,17 +1967,17 @@ sections:
               componentId: a44r0SiGV9AFn2Fj
             sectionIds: []
         sectionIds:
-          - d09b7818c7690ba7
-          - a87e209e42b406cd
+          - 546b53d9736d866f
+          - 713cf5a8b823e5f4
         config:
           gridSettings:
             desktop:
-              d09b7818c7690ba7:
+              546b53d9736d866f:
                 x: 2
                 y: 0
                 w: 8
                 h: 1
-              a87e209e42b406cd:
+              713cf5a8b823e5f4:
                 x: 0
                 y: 1
                 w: 12
@@ -2168,11 +1989,11 @@ sections:
           background: background.paper
           borderRadius: small
     sectionIds:
-      - dbaf6670113f90eb
+      - bc37d8feb6e5ca14
     config:
       gridSettings:
         desktop:
-          dbaf6670113f90eb:
+          bc37d8feb6e5ca14:
             x: 0
             y: 0
             w: 12
@@ -2182,135 +2003,168 @@ sections:
       backgroundFullWidth: false
       paddingX: none
 sectionIds:
-  - e1c97b3710d489a2
+  - fccd2eef046cc699
   - 671827b9508f92f3
-  - 1c472f1c0d5b2d5f
-  - dd6c4ba4f1e73c06
-  - 50fc12ab8b75ac40
-  - cf6ecfd558c8e466
-  - 84fb3e2b322e7882
-  - bbd2faf209641be9
-  - bb8fc55581526f4e
-  - e373c304172d1606
+  - 0bd9c287b4dac2cd
+  - 1b88992adea4de75
+  - cf17a77ca939f164
+  - 8c56db9436ed1903
+  - 903810bcfdcc518c
+  - 32f70d5a215033d4
+  - c59628db92205485
 dataSource:
-  087e8576fefadf0f:
+  7b1376699bbeab12:
     en:
       properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759121327460-gc8w9kaxt
-                type: text
-                text: Stop just checking syntax. AIGNE CodeSmith leverages Claude's advanced
-                  reasoning to provide deep, context-aware feedback, helping you
-                  ship better code, faster. Get intelligent PR summaries and
-                  line-by-line reviews right in GitHub.
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
         gs1rn5jmxfvpxptx:
           value:
             text: AI-Powered Code Reviews That Actually Understand Your Code
             style:
+              fontSize: '{"md":56}'
               variant: h1
+    zh:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-    zh:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 真正理解您代码的 AI 代码审查
+            style:
+              fontSize: '{"md":56}'
+              variant: h1
+  b1727de5312cd351:
+    en:
       properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759121327460-gc8w9kaxt
+              - id: item-1759472738716-8jpjkgjdk
                 type: text
-                text: 告别只检查语法的时代。AIGNE CodeSmith 利用 Claude
-                  的高级推理能力，提供深入的、具备上下文感知的反馈，助您更快地交付更优质的代码。直接在 GitHub 中获取智能的 PR
-                  摘要和逐行审查。
+                text: Transform your code review process. AIGNE CodeSmith doesn't just check
+                  syntax—it understands context, identifies architectural
+                  issues, and provides thoughtful feedback that helps your team
+                  grow.
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
         gs1rn5jmxfvpxptx:
           value:
-            text: AI 驱动的代码审查，真正理解您的代码
+            text: Accelerate your development workflow with intelligent, context-aware code
+              reviews using Claude's advanced reasoning capabilities.
             style:
-              variant: h1
+              variant: h3
+    zh:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  5455a7046747c6d7:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759472738716-8jpjkgjdk
+                type: text
+                text: 彻底改变您的代码审查流程。AIGNE CodeSmith 不仅仅是检查语法——它能理解上下文、识别架构问题，并提供有助于团队成长的深刻反馈。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 利用 Claude 先进的推理能力，通过智能、上下文感知的代码审查加速您的开发工作流。
+            style:
+              variant: h3
+  fcb1cc05e11b014c:
     en:
       properties:
-        b8x4m3n9kp7qtw5r:
-          value:
-            - id: btn-default-1
-              type: link
-              text: Get Started Now
-              url: https://github.com/aigne-io/aigne-codesmith
-              variant: contained
-              size: large
-              target: _self
-              needLogin: false
-            - id: btn-1759121436561-6r9xmg35x
-              text: Read the Docs
-              variant: outlined
-              borderColor: primary.main
-              size: large
-              url: https://github.com/aigne-io/aigne-codesmith/wiki
-        r8t5y6u7i1o2p3a4:
-          value: 16
         v5utpm7bu9yvdpnq:
           value: flex-start
         v9979xeclpsbvn0n:
           value: flex-start
-    zh:
-      properties:
         b8x4m3n9kp7qtw5r:
           value:
             - id: btn-default-1
               type: link
-              text: 立即开始
+              text: Get Started on GitHub
               url: https://github.com/aigne-io/aigne-codesmith
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
-            - id: btn-1759121436561-6r9xmg35x
-              text: 阅读文档
+            - type: link
+              text: Explore Features
+              url: "#features"
+              color: ""
+              borderColor: ""
               variant: outlined
-              borderColor: primary.main
               size: large
-              url: https://github.com/aigne-io/aigne-codesmith/wiki
-        r8t5y6u7i1o2p3a4:
-          value: 16
+              target: auto
+              startIcon: ""
+              endIcon: ""
+              needLogin: false
+              imageUrl: ""
+              imageUrlDark: ""
+              imageHoverAnimation: true
+              id: btn-1759473759606-h7czb7h4e
+    zh:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         v9979xeclpsbvn0n:
           value: flex-start
-  f98b98ffd13b8a1d:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 在 GitHub 上开始使用
+              url: https://github.com/aigne-io/aigne-codesmith
+              variant: contained
+              size: large
+              target: auto
+              needLogin: false
+            - type: link
+              text: 探索功能
+              url: "#features"
+              color: ""
+              borderColor: ""
+              variant: outlined
+              size: large
+              target: auto
+              startIcon: ""
+              endIcon: ""
+              needLogin: false
+              imageUrl: ""
+              imageUrlDark: ""
+              imageHoverAnimation: true
+              id: btn-1759473759606-h7czb7h4e
+  04e6e387749aad19:
     en:
       properties:
         7m5pz8nefl5j9hqq:
           value:
-            url: mediakit://aigne-codesmith-hero-visual.png
-            mediaKitUrl: mediakit://aigne-codesmith-hero-visual.png
-            width: 2445
-            height: 1394
-        jjv0hvr8wrixt1f3:
-          value: 1
+            url: mediakit://hero-aigne-codesmith-visual.png
+            mediaKitUrl: mediakit://hero-aigne-codesmith-visual.png
+            width: 2048
+            height: 1536
     zh:
       properties:
         7m5pz8nefl5j9hqq:
           value:
-            url: mediakit://aigne-codesmith-hero-visual.png
-            mediaKitUrl: mediakit://aigne-codesmith-hero-visual.png
-            width: 2445
-            height: 1394
-        jjv0hvr8wrixt1f3:
-          value: 1
+            url: mediakit://hero-aigne-codesmith-visual.png
+            mediaKitUrl: mediakit://hero-aigne-codesmith-visual.png
+            width: 2048
+            height: 1536
   d79cdf28faac3108:
     en:
       properties:
@@ -2320,9 +2174,9 @@ dataSource:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: Why AIGNE CodeSmith is a Game-Changer
+            text: Everything You Need for Smarter Code Reviews
             style:
-              variant: h2
+              variant: h1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -2331,9 +2185,9 @@ dataSource:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: 为何 AIGNE CodeSmith 能颠覆游戏规则
+            text: 智能代码审查所需的一切
             style:
-              variant: h2
+              variant: h1
   8a0319c7be20285c:
     en:
       properties:
@@ -2343,7 +2197,7 @@ dataSource:
           value: flex-start
         gs1rn5jmxfvpxptx:
           value:
-            text: Context-Aware Reviews
+            text: PR Summarization
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2351,9 +2205,8 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Leverages Claude's superior reasoning to understand the intent and
-                  architecture behind your code, providing feedback that goes
-                  beyond simple syntax.
+                text: Automatically generates concise summaries and release notes, so you can
+                  understand changes at a glance and save precious time.
                 style:
                   color: ""
                   fontSize: 16px
@@ -2366,7 +2219,7 @@ dataSource:
           value: flex-start
         gs1rn5jmxfvpxptx:
           value:
-            text: 上下文感知审查
+            text: PR 摘要
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2374,7 +2227,7 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 利用 Claude 的卓越推理能力，理解您代码背后的意图和架构，提供超越简单语法检查的反馈。
+                text: 自动生成简洁的摘要和发布说明，让您一目了然地了解变更，节省宝贵时间。
                 style:
                   color: ""
                   fontSize: 16px
@@ -2383,7 +2236,7 @@ dataSource:
     en:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:brain-circuit
+          value: lucide:file-text
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -2391,7 +2244,7 @@ dataSource:
     zh:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:brain-circuit
+          value: lucide:file-text
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -2405,7 +2258,7 @@ dataSource:
           value: flex-start
         gs1rn5jmxfvpxptx:
           value:
-            text: Dual-Model Efficiency
+            text: Line-by-Line Reviews
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2413,8 +2266,8 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Smartly optimizes costs by using lightweight models for quick summaries
-                  and powerful models for deep, line-by-line analysis.
+                text: Get contextual suggestions for code improvements right where they matter,
+                  helping you catch issues before they ever reach production.
                 style:
                   color: ""
                   fontSize: 16px
@@ -2427,7 +2280,7 @@ dataSource:
           value: flex-start
         gs1rn5jmxfvpxptx:
           value:
-            text: 双模型高效率
+            text: 逐行审查
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2435,7 +2288,7 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 通过使用轻量级模型进行快速摘要，使用强大模型进行深入的逐行分析，智能地优化成本。
+                text: 在关键之处获得代码改进的上下文建议，帮助您在问题进入生产环境之前将其捕获。
                 style:
                   color: ""
                   fontSize: 16px
@@ -2444,7 +2297,7 @@ dataSource:
     en:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:zap
+          value: lucide:search-code
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -2452,7 +2305,7 @@ dataSource:
     zh:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:zap
+          value: lucide:search-code
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -2466,7 +2319,7 @@ dataSource:
           value: flex-start
         gs1rn5jmxfvpxptx:
           value:
-            text: Focus on What Matters
+            text: Cost Optimization
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2474,9 +2327,8 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Automatically skips trivial changes like typos and formatting, so your
-                  team can focus on the critical issues that truly impact code
-                  quality.
+                text: Incremental reviews track only changed files, minimizing API costs while
+                  maximizing your code coverage. It's efficiency built-in!
                 style:
                   color: ""
                   fontSize: 16px
@@ -2489,7 +2341,7 @@ dataSource:
           value: flex-start
         gs1rn5jmxfvpxptx:
           value:
-            text: 聚焦关键问题
+            text: 成本优化
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2497,7 +2349,7 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 自动跳过拼写错误和格式化等琐碎变更，让您的团队能够专注于真正影响代码质量的关键问题。
+                text: 增量审查仅跟踪已更改的文件，最大限度地减少 API 成本，同时最大化您的代码覆盖率。内置高效！
                 style:
                   color: ""
                   fontSize: 16px
@@ -2506,7 +2358,7 @@ dataSource:
     en:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:filter
+          value: lucide:dollar-sign
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -2514,315 +2366,197 @@ dataSource:
     zh:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:filter
+          value: lucide:dollar-sign
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
-  3fcd2113b474335b:
+  6c7d6356a9593b08:
     en:
       properties:
-        gs1rn5jmxfvpxptx:
-          value:
-            text: Everything You Need to Supercharge Your Workflow
-            style:
-              variant: h2
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-    zh:
-      properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 全面赋能您工作流所需的一切
-            style:
-              variant: h2
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
-  8b2f99e2d9684e40:
-    en:
-      properties:
-        gs1rn5jmxfvpxptx:
-          value:
-            text: Automated PR Summaries & Release Notes
+            text: Smart Analysis
             style:
               variant: h4
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759185456428-p8i1jjk33
+              - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Save tons of time! Get concise, auto-generated summaries of every pull
-                  request. Understand complex changes at a glance and generate
-                  release notes effortlessly.
+                text: Leverages the power of Claude-3.5-Sonnet for superior reasoning, giving
+                  you deep architectural insights, not just simple syntax
+                  checks.
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-    zh:
-      properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 自动化 PR 摘要与发布说明
+            text: 智能分析
             style:
               variant: h4
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759185456428-p8i1jjk33
+              - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 节省大量时间！为每个拉取请求获取简洁的自动生成摘要。一目了然地理解复杂变更，轻松生成发布说明。
+                text: 利用 Claude-3.5-Sonnet 的强大功能进行卓越推理，为您提供深刻的架构见解，而不仅仅是简单的语法检查。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
+  3146007f1ae8e627:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:brain-circuit
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    zh:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:brain-circuit
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+  c29e90aa797f1e8a:
+    en:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  4ef5a8f1e8f87f5f:
-    en:
-      properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-summary.png
-            mediaKitUrl: mediakit://pr-summary.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-    zh:
-      properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-summary.png
-            mediaKitUrl: mediakit://pr-summary.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-  f262507ce32fcebd:
-    en:
-      properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: Intelligent Line-by-Line Reviews
+            text: Intelligent Skipping
             style:
               variant: h4
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759185456428-p8i1jjk33
+              - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Receive contextual suggestions for improvements right where you need them.
-                  Catch potential bugs, security issues, and architectural
-                  problems before they ever hit production.
+                text: Our AI is smart enough to ignore trivial changes like typos and
+                  formatting, keeping your reviewers focused on what truly
+                  matters.
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-    zh:
-      properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 智能逐行审查
+            text: 智能跳过
             style:
               variant: h4
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759185456428-p8i1jjk33
+              - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 在您需要的地方直接接收上下文相关的改进建议。在潜在的错误、安全问题和架构问题进入生产环境之前将其捕获。
+                text: 我们的 AI 足够智能，可以忽略拼写错误和格式化等琐碎更改，让您的审查人员专注于真正重要的事情。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
+  37a9e660875f3168:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:fast-forward
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    zh:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:fast-forward
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+  9f9904bac4b8d3a3:
+    en:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  8cdc896b98d1d149:
-    en:
-      properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-review-comment.png
-            mediaKitUrl: mediakit://pr-review-comment.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-    zh:
-      properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-review-comment.png
-            mediaKitUrl: mediakit://pr-review-comment.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-  68b65ddda964c9b7:
-    en:
-      properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: Smart Cost Optimization
+            text: Custom Prompts
             style:
               variant: h4
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759185456428-p8i1jjk33
+              - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Keep your costs low without sacrificing quality. Our incremental reviews
-                  only analyze changed files, maximizing your coverage while
-                  minimizing API usage.
+                text: Fully customizable review criteria and tone. Adapt the AI to your team's
+                  unique standards and practices effortlessly.
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh:
+      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-    zh:
-      properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 智能成本优化
+            text: 自定义提示
             style:
               variant: h4
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759185456428-p8i1jjk33
+              - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 在不牺牲质量的前提下保持低成本。我们的增量审查只分析变更的文件，从而在最小化 API 使用的同时最大化覆盖范围。
+                text: 完全可定制的审查标准和语气。轻松使 AI 适应您团队独特的标准和实践。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
-  274d9e0248315cf3:
+  f3f0594beead88bb:
     en:
       properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-title-suggestion.png
-            mediaKitUrl: mediakit://pr-title-suggestion.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
+        5ek4m0kw9cu0ndns:
+          value: lucide:settings-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-title-suggestion.png
-            mediaKitUrl: mediakit://pr-title-suggestion.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-  e62cb727ed233501:
-    en:
-      properties:
-        gs1rn5jmxfvpxptx:
-          value:
-            text: Fully Customizable to Your Standards
-            style:
-              variant: h4
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759185456428-p8i1jjk33
-                type: text
-                text: Make it yours! Tailor the review criteria, tone, and focus areas with
-                  custom prompts to ensure the AI's feedback perfectly aligns
-                  with your team's unique practices.
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
-    zh:
-      properties:
-        gs1rn5jmxfvpxptx:
-          value:
-            text: 完全可定制以符合您的标准
-            style:
-              variant: h4
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759185456428-p8i1jjk33
-                type: text
-                text: 打造专属体验！通过自定义提示词来定制审查标准、语气和重点领域，确保 AI 的反馈与您团队的独特实践完美对齐。
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
-  a0325b4122b1d56f:
-    en:
-      properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-walkthrough.png
-            mediaKitUrl: mediakit://pr-walkthrough.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-    zh:
-      properties:
-        7m5pz8nefl5j9hqq:
-          value:
-            url: mediakit://pr-walkthrough.png
-            mediaKitUrl: mediakit://pr-walkthrough.png
-            width: 1270
-            height: 520
-        70d4dvbqgjal3z6j:
-          value: ""
-        jjv0hvr8wrixt1f3:
-          value: 1
-  5b658d0ac413cd4c:
+        5ek4m0kw9cu0ndns:
+          value: lucide:settings-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+  10c868964f4822ae:
     en:
       properties:
         v5utpm7bu9yvdpnq:
@@ -2831,7 +2565,7 @@ dataSource:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: Get Started in Under 2 Minutes
+            text: Get Up and Running in Under 2 Minutes
             style:
               variant: h2
     zh:
@@ -2842,15 +2576,15 @@ dataSource:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: 不到 2 分钟即可开始
+            text: 不到 2 分钟即可启动并运行
             style:
               variant: h2
-  f19eeffa4f87a133:
+  1745fad4d7d10773:
     en:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: "Step 1: Add the Workflow File"
+            text: "Step 1: Add the Workflow"
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2858,9 +2592,9 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: Just drop this YAML file into your repository at
-                  `.github/workflows/aigne-codesmith.yml`. It's all you need to
-                  kick things off!
+                text: Just add one file to your repository! Create a new file at
+                  `.github/workflows/aigne-codesmith.yml` and paste in the
+                  following configuration. It’s that simple!
                 style:
                   color: ""
                   fontSize: 16px
@@ -2873,7 +2607,7 @@ dataSource:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 第 1 步：添加工作流文件
+            text: 第 1 步：添加工作流
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2881,7 +2615,8 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: 只需将此 YAML 文件放入您仓库的 `.github/workflows/aigne-codesmith.yml` 路径下。这就是启动所需的一切！
+                text: 只需向您的仓库添加一个文件！在 `.github/workflows/aigne-codesmith.yml`
+                  处创建一个新文件，并粘贴以下配置。就是这么简单！
                 style:
                   color: ""
                   fontSize: 16px
@@ -2890,12 +2625,13 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  c3e98bb9966017d0:
+  7303e9b086f8fd03:
     en:
       properties:
         a7frn5jmx5vpxpt3:
-          value: |-
+          value: >-
             name: 🤖 AI Code Review
+
 
             permissions:
               contents: read
@@ -2906,6 +2642,11 @@ dataSource:
               pull_request_review_comment:
                 types: [created]
 
+            concurrency:
+              group:
+                ${{ github.repository }}-${{ github.event.number || github.head_ref || github.sha }}-${{ github.workflow }}-${{ github.event_name == 'pull_request_review_comment' && 'pr_comment' || 'pr' }}
+              cancel-in-progress: ${{ github.event_name != 'pull_request_review_comment' }}
+
             jobs:
               review:
                 runs-on: ubuntu-latest
@@ -2914,6 +2655,10 @@ dataSource:
                     env:
                       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+                    with:
+                      debug: false
+                      review_simple_changes: false
+                      review_comment_lgtm: false
         b2jrz12ik7esf93z:
           value: aigne-codesmith.yml
         d8hvf7cxz93jk5p:
@@ -2923,8 +2668,9 @@ dataSource:
     zh:
       properties:
         a7frn5jmx5vpxpt3:
-          value: |-
-            name: 🤖 AI Code Review
+          value: >-
+            name: 🤖 AI 代码审查
+
 
             permissions:
               contents: read
@@ -2935,6 +2681,11 @@ dataSource:
               pull_request_review_comment:
                 types: [created]
 
+            concurrency:
+              group:
+                ${{ github.repository }}-${{ github.event.number || github.head_ref || github.sha }}-${{ github.workflow }}-${{ github.event_name == 'pull_request_review_comment' && 'pr_comment' || 'pr' }}
+              cancel-in-progress: ${{ github.event_name != 'pull_request_review_comment' }}
+
             jobs:
               review:
                 runs-on: ubuntu-latest
@@ -2943,18 +2694,22 @@ dataSource:
                     env:
                       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+                    with:
+                      debug: false
+                      review_simple_changes: false
+                      review_comment_lgtm: false
         b2jrz12ik7esf93z:
           value: aigne-codesmith.yml
         d8hvf7cxz93jk5p:
           value: 1rem
         qvxiyadgn5bj6oq8:
           value: false
-  b1b63adc7571b1b6:
+  17d0ca38c2a76223:
     en:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: "Step 2: Add Your Anthropic API Key"
+            text: "Step 2: Configure Secrets"
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2962,8 +2717,10 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: Head over to your repository's Settings > Secrets and variables > Actions,
-                  and add your Anthropic API key as `ANTHROPIC_API_KEY`.
+                text: Time to secure your API key. Head over to your repository's Settings >
+                  Secrets and variables > Actions. Click 'New repository
+                  secret', name it `ANTHROPIC_API_KEY`, and paste your key from
+                  the Anthropic Console.
                 style:
                   color: ""
                   fontSize: 16px
@@ -2976,7 +2733,7 @@ dataSource:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 第 2 步：添加您的 Anthropic API 密钥
+            text: 第 2 步：配置密钥
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -2984,8 +2741,9 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: 前往您仓库的“Settings > Secrets and variables > Actions”，然后将您的 Anthropic API
-                  密钥添加为 `ANTHROPIC_API_KEY`。
+                text: 是时候保护您的 API 密钥了。前往您仓库的“Settings > Secrets and variables > Actions”。点击“New
+                  repository secret”，将其命名为 `ANTHROPIC_API_KEY`，并粘贴您从 Anthropic
+                  控制台获取的密钥。
                 style:
                   color: ""
                   fontSize: 16px
@@ -2994,7 +2752,7 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  c85e815c5fa30b8a:
+  4619faa923121b10:
     en:
       properties:
         7m5pz8nefl5j9hqq:
@@ -3019,13 +2777,9 @@ dataSource:
           value: ""
         jjv0hvr8wrixt1f3:
           value: 1
-  824549dfc765923c:
+  0bd59fc52ea3d747:
     en:
       properties:
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
         gs1rn5jmxfvpxptx:
           value:
             text: "Step 3: You're All Set! 🎉"
@@ -3034,21 +2788,21 @@ dataSource:
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759143324880-zr95ywd04
+              - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: That's it! Open your next pull request and watch the magic happen. AIGNE
-                  CodeSmith will automatically jump in to provide intelligent
-                  reviews.
+                text: And that's it! Open a new pull request and watch the magic happen. AIGNE
+                  CodeSmith will automatically jump in to provide intelligent,
+                  helpful reviews. Happy coding!
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
-    zh:
-      properties:
         v5utpm7bu9yvdpnq:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh:
+      properties:
         gs1rn5jmxfvpxptx:
           value:
             text: 第 3 步：一切就绪！🎉
@@ -3057,31 +2811,43 @@ dataSource:
         9ajrz12ik7esfk1z:
           value:
             list:
-              - id: item-1759143324880-zr95ywd04
+              - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: 就是这样！创建您的下一个拉取请求，见证奇迹发生。AIGNE CodeSmith 将自动介入，提供智能审查。
+                text: 就是这样！创建一个新的拉取请求，见证奇迹的发生。AIGNE CodeSmith 将自动介入，提供智能、有用的审查。编码愉快！
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
-  75224870c5e4c765:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+  f498df07b35232af:
     en:
       properties:
-        5ek4m0kw9cu0ndns:
-          value: lucide:party-popper
-        gugqsxx3xyveuu8n:
-          value: primary.main
-        529qbwiam7oypw8e:
-          value: 40px
+        7m5pz8nefl5j9hqq:
+          value:
+            url: mediakit://pr-review-comment.png
+            mediaKitUrl: mediakit://pr-review-comment.png
+            width: 1920
+            height: 932
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
-        5ek4m0kw9cu0ndns:
-          value: lucide:party-popper
-        gugqsxx3xyveuu8n:
-          value: primary.main
-        529qbwiam7oypw8e:
-          value: 40px
-  66660b01fa5df1ed:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: mediakit://pr-review-comment.png
+            mediaKitUrl: mediakit://pr-review-comment.png
+            width: 1920
+            height: 932
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
+  fc8aca2223685a5f:
     en:
       properties:
         v5utpm7bu9yvdpnq:
@@ -3090,9 +2856,9 @@ dataSource:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: Perfect for Teams of All Shapes and Sizes
+            text: Powerful for Teams of Any Scale
             style:
-              variant: h2
+              variant: h1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -3101,10 +2867,10 @@ dataSource:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: 完美适用于各种规模和类型的团队
+            text: 功能强大，适用于任何规模的团队
             style:
-              variant: h2
-  63c93083d2c91977:
+              variant: h1
+  188bf83f2774511b:
     en:
       properties:
         v5utpm7bu9yvdpnq:
@@ -3121,8 +2887,9 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Maintain consistent standards, perform security reviews, and provide
-                  architectural guidance across massive codebases with ease.
+                text: Maintain consistent standards across large codebases, catch security
+                  vulnerabilities early, and provide architectural guidance to
+                  keep your projects robust and secure.
                 style:
                   color: ""
                   fontSize: 16px
@@ -3143,16 +2910,16 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 轻松地在庞大的代码库中维护一致的标准、执行安全审查并提供架构指导。
+                text: 在大型代码库中保持一致的标准，及早发现安全漏洞，并提供架构指导，以确保您的项目稳健安全。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
-  44e9ab7901339db4:
+  9a4665f91027d3f7:
     en:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:building-2
+          value: lucide:building
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -3160,12 +2927,12 @@ dataSource:
     zh:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:building-2
+          value: lucide:building
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
-  f9fc8ddb14ac4d98:
+  3d914af2157737bc:
     en:
       properties:
         v5utpm7bu9yvdpnq:
@@ -3182,8 +2949,9 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Move fast without breaking things. Maintain high code quality, save
-                  precious time, and get instant feedback 24/7.
+                text: "Uphold high code quality without dedicated reviewers, share knowledge
+                  through AI suggestions, and save time to focus on what you do
+                  best: building amazing features."
                 style:
                   color: ""
                   fontSize: 16px
@@ -3204,12 +2972,12 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 快速行动，同时避免破坏。维持高代码质量，节省宝贵时间，并获得全天候的即时反馈。
+                text: 无需专门的审查人员即可维持高代码质量，通过 AI 建议分享知识，并节省时间专注于您最擅长的事情：构建出色的功能。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
-  8c46b4e66710e195:
+  834e8f1413211851:
     en:
       properties:
         5ek4m0kw9cu0ndns:
@@ -3226,7 +2994,7 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
-  af3058586d48a920:
+  824549dfc765923c:
     en:
       properties:
         v5utpm7bu9yvdpnq:
@@ -3243,9 +3011,9 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: Guide new contributors, ensure consistent quality across a diverse
-                  community, and auto-generate release notes to keep everyone in
-                  the loop.
+                text: Guide new contributors, ensure consistent review quality across the board,
+                  and even auto-generate release notes to keep your community
+                  informed and engaged.
                 style:
                   color: ""
                   fontSize: 16px
@@ -3266,16 +3034,16 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 指导新贡献者，确保在多元化社区中保持一致的质量，并自动生成发布说明以让每个人都了解最新进展。
+                text: 指导新贡献者，确保全面一致的审查质量，甚至自动生成发布说明，让您的社区保持知情和参与。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
-  3374e02e496ee2da:
+  75224870c5e4c765:
     en:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:github
+          value: lucide:users
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
@@ -3283,35 +3051,27 @@ dataSource:
     zh:
       properties:
         5ek4m0kw9cu0ndns:
-          value: lucide:github
+          value: lucide:users
         gugqsxx3xyveuu8n:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
-  d2e1e66a22867eb0:
+  f3c7a1cec975d8f2:
     en:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: What Developers Are Saying
+            text: Real-World Impact
             style:
-              variant: h2
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
+              variant: h1
     zh:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 开发者们怎么说
+            text: 真实世界的影响力
             style:
-              variant: h2
-        v5utpm7bu9yvdpnq:
-          value: flex-start
-        kyg0hdy5uqq4gc1o:
-          value: flex-start
-  7ca373dc4603138a:
+              variant: h1
+  ade4408a99f6541f:
     en:
       properties:
         9ajrz12ik7esfk1z:
@@ -3319,10 +3079,10 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: AIGNE CodeSmith caught 3 critical security issues in our authentication
+                text: '"AIGNE CodeSmith caught 3 critical security issues in our authentication
                   system that we missed in manual reviews. The architectural
                   suggestions helped us improve our code structure
-                  significantly.
+                  significantly."'
                 style:
                   color: ""
                   fontSize: 16px
@@ -3331,6 +3091,8 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+        f2vvqlt7hjbxc57s:
+          value: false
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -3338,7 +3100,7 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: AIGNE CodeSmith 在我们的认证系统中发现了 3 个我们在手动审查中遗漏的关键安全问题。其架构建议帮助我们显著改善了代码结构。
+                text: “AIGNE CodeSmith 在我们的认证系统中发现了 3 个我们在手动审查中遗漏的关键安全问题。其架构建议帮助我们显著改善了代码结构。”
                 style:
                   color: ""
                   fontSize: 16px
@@ -3347,7 +3109,50 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  1117707a75468829:
+        f2vvqlt7hjbxc57s:
+          value: false
+  b3f203b852ecd51a:
+    en:
+      properties:
+        x8beiec3fxx5des1:
+          value: 40px
+        5fjm8opvqth7wk71:
+          value: 40px
+        dxn6zvv5bn6dn3mr:
+          value: cover
+        7m5pz8nefl5j9hqq:
+          value:
+            url: ""
+            mediaKitUrl: ""
+            width: 84
+            height: 84
+        02dp1e6zfq2xwkt3:
+          value: 1:1
+        jjv0hvr8wrixt1f3:
+          value: 1
+        9tjhmxpe86r4on41:
+          value: Sarah Chen
+    zh:
+      properties:
+        x8beiec3fxx5des1:
+          value: 40px
+        5fjm8opvqth7wk71:
+          value: 40px
+        dxn6zvv5bn6dn3mr:
+          value: cover
+        7m5pz8nefl5j9hqq:
+          value:
+            url: ""
+            mediaKitUrl: ""
+            width: 84
+            height: 84
+        02dp1e6zfq2xwkt3:
+          value: 1:1
+        jjv0hvr8wrixt1f3:
+          value: 1
+        9tjhmxpe86r4on41:
+          value: Sarah Chen
+  d06f12606efb71bd:
     en:
       properties:
         gs1rn5jmxfvpxptx:
@@ -3369,6 +3174,8 @@ dataSource:
                   color: ""
                   fontSize: 12px
                   variant: caption
+        f2vvqlt7hjbxc57s:
+          value: true
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -3390,7 +3197,9 @@ dataSource:
                   color: ""
                   fontSize: 12px
                   variant: caption
-  d0c54f60a5f10b32:
+        f2vvqlt7hjbxc57s:
+          value: true
+  12ca7db0c68207b4:
     en:
       properties:
         9ajrz12ik7esfk1z:
@@ -3398,9 +3207,9 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: We reduced our code review time by 60% while actually improving code
+                text: '"We reduced our code review time by 60% while actually improving code
                   quality. The AI provides context that junior developers found
-                  incredibly valuable.
+                  incredibly valuable."'
                 style:
                   color: ""
                   fontSize: 16px
@@ -3409,6 +3218,8 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+        f2vvqlt7hjbxc57s:
+          value: false
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -3416,7 +3227,7 @@ dataSource:
             list:
               - id: item-1759143324880-zr95ywd04
                 type: text
-                text: 我们将代码审查时间减少了 60%，同时还切实提高了代码质量。AI 提供的上下文信息对初级开发人员来说非常有价值。
+                text: “我们将代码审查时间减少了 60%，同时还切实提高了代码质量。AI 提供的上下文对初级开发人员来说非常有价值。”
                 style:
                   color: ""
                   fontSize: 16px
@@ -3425,7 +3236,50 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  430fc352c0a18bd0:
+        f2vvqlt7hjbxc57s:
+          value: false
+  0824b092f543d47f:
+    en:
+      properties:
+        x8beiec3fxx5des1:
+          value: 40px
+        5fjm8opvqth7wk71:
+          value: 40px
+        dxn6zvv5bn6dn3mr:
+          value: cover
+        7m5pz8nefl5j9hqq:
+          value:
+            url: ""
+            mediaKitUrl: ""
+            width: 84
+            height: 84
+        02dp1e6zfq2xwkt3:
+          value: 1:1
+        jjv0hvr8wrixt1f3:
+          value: 1
+        9tjhmxpe86r4on41:
+          value: Marcus Rodriguez
+    zh:
+      properties:
+        x8beiec3fxx5des1:
+          value: 40px
+        5fjm8opvqth7wk71:
+          value: 40px
+        dxn6zvv5bn6dn3mr:
+          value: cover
+        7m5pz8nefl5j9hqq:
+          value:
+            url: ""
+            mediaKitUrl: ""
+            width: 84
+            height: 84
+        02dp1e6zfq2xwkt3:
+          value: 1:1
+        jjv0hvr8wrixt1f3:
+          value: 1
+        9tjhmxpe86r4on41:
+          value: Marcus Rodriguez
+  5a89bcb6979d3767:
     en:
       properties:
         gs1rn5jmxfvpxptx:
@@ -3447,6 +3301,8 @@ dataSource:
                   color: ""
                   fontSize: 12px
                   variant: caption
+        f2vvqlt7hjbxc57s:
+          value: true
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -3468,316 +3324,676 @@ dataSource:
                   color: ""
                   fontSize: 12px
                   variant: caption
-  b01f464fa7de016c:
+        f2vvqlt7hjbxc57s:
+          value: true
+  26df9396ee831600:
     en:
       properties:
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: Transparent and Simple Pricing
+            text: Transparent & Simple Pricing
             style:
-              variant: h2
+              variant: h1
     zh:
       properties:
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
         gs1rn5jmxfvpxptx:
           value:
             text: 透明简洁的定价
             style:
+              variant: h1
+  a2b46a401c75aeeb:
+    en:
+      properties:
+        bm5nin5dwota4vwj:
+          value:
+            entities:
+              - id: e0
+                label: 5 Developers
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: ""
+                action:
+                  label: ""
+                  url: ""
+                  tooltip: ""
+              - id: e1
+                label: 20 Developers
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: ""
+                action:
+                  label: ""
+                  url: ""
+                  tooltip: ""
+              - id: e2
+                label: 50+ Developers
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: "true"
+                action:
+                  label: Contact Sales
+                  url: mailto:sales@aigne.io
+                  tooltip: ""
+              - id: e3
+                label: ""
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: ""
+                action:
+                  label: ""
+                  url: ""
+                  tooltip: ""
+            features:
+              - id: f0
+                label: Daily Pull Requests
+                tooltip: ""
+                icon: ""
+              - id: f1
+                label: Estimated Daily Cost
+                tooltip: Costs vary based on code complexity and review depth. Claude models are
+                  significantly more cost-effective than GPT-4.
+                icon: ""
+              - id: f2
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f3
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f4
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f5
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f6
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f7
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f8
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f9
+                label: ""
+                tooltip: ""
+                icon: ""
+            matrix: |-
+              {
+                "f0": {
+                  "e0": {
+                    "value": "~20 PRs",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "~80 PRs",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "~200 PRs",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f1": {
+                  "e0": {
+                    "value": "$3-5 / day",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "$12-20 / day",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "$30-50 / day",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f2": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f3": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f4": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f5": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f6": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f7": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f8": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f9": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                }
+              }
+        x9k2m5p8q1w3r7t6:
+          value: Usage
+    zh:
+      properties:
+        bm5nin5dwota4vwj:
+          value:
+            entities:
+              - id: e0
+                label: 5 名开发人员
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: ""
+                action:
+                  label: ""
+                  url: ""
+                  tooltip: ""
+              - id: e1
+                label: 20 名开发人员
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: ""
+                action:
+                  label: ""
+                  url: ""
+                  tooltip: ""
+              - id: e2
+                label: 50+ 名开发人员
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: "true"
+                action:
+                  label: 联系销售
+                  url: mailto:sales@aigne.io
+                  tooltip: ""
+              - id: e3
+                label: ""
+                subTitle: ""
+                description: ""
+                icon: ""
+                highlight: ""
+                action:
+                  label: ""
+                  url: ""
+                  tooltip: ""
+            features:
+              - id: f0
+                label: 每日拉取请求
+                tooltip: ""
+                icon: ""
+              - id: f1
+                label: 预估每日成本
+                tooltip: 成本因代码复杂度和审查深度而异。Claude 模型的成本效益显著高于 GPT-4。
+                icon: ""
+              - id: f2
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f3
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f4
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f5
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f6
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f7
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f8
+                label: ""
+                tooltip: ""
+                icon: ""
+              - id: f9
+                label: ""
+                tooltip: ""
+                icon: ""
+            matrix: |-
+              {
+                "f0": {
+                  "e0": {
+                    "value": "约 20 个 PR",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "约 80 个 PR",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "约 200 个 PR",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f1": {
+                  "e0": {
+                    "value": "每天 3-5 美元",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "每天 12-20 美元",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "每天 30-50 美元",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f2": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f3": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f4": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f5": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f6": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f7": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f8": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                },
+                "f9": {
+                  "e0": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e1": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e2": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  },
+                  "e3": {
+                    "value": "",
+                    "tooltip": "",
+                    "highlight": ""
+                  }
+                }
+              }
+        x9k2m5p8q1w3r7t6:
+          value: 用量
+  bea6dca7544a05f3:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Fully Customizable to Fit Your Workflow
+            style:
               variant: h2
-  cd0ad5bae350b22b:
-    en:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 5 developers
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: $3-5 / day
-            style:
-              variant: h1
     zh:
       properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 5 名开发者
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
         v5utpm7bu9yvdpnq:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
         gs1rn5jmxfvpxptx:
           value:
-            text: $3-5 / 天
-            style:
-              variant: h1
-  e45b0a7548794636:
-    en:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: Based on ~20 PRs daily
-                style:
-                  color: grey.400
-                  fontSize: 14px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: ""
-            style:
-              variant: h1
-    zh:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 基于每天约 20 个 PR
-                style:
-                  color: grey.400
-                  fontSize: 14px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: ""
-            style:
-              variant: h1
-  a055d68cd456bba3:
-    en:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 20 developers
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: $12-20 / day
-            style:
-              variant: h1
-    zh:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 20 名开发者
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: $12-20 / 天
-            style:
-              variant: h1
-  7421d42c2765f9b6:
-    en:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: Based on ~80 PRs daily
-                style:
-                  color: grey.400
-                  fontSize: 14px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: ""
-            style:
-              variant: h1
-    zh:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 基于每天约 80 个 PR
-                style:
-                  color: grey.400
-                  fontSize: 14px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: ""
-            style:
-              variant: h1
-  cebc38eba7da18fc:
-    en:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 50+ developers
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: $30-50 / day
-            style:
-              variant: h1
-    zh:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 50+ 名开发者
-                style:
-                  color: ""
-                  fontSize: 16px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: $30-50 / 天
-            style:
-              variant: h1
-  3f6debc8ca7cd9a6:
-    en:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: Based on ~200 PRs daily
-                style:
-                  color: grey.400
-                  fontSize: 14px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: ""
-            style:
-              variant: h1
-    zh:
-      properties:
-        9ajrz12ik7esfk1z:
-          value:
-            list:
-              - id: item-1759143324880-zr95ywd04
-                type: text
-                text: 基于每天约 200 个 PR
-                style:
-                  color: grey.400
-                  fontSize: 14px
-                  variant: body1
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: ""
-            style:
-              variant: h1
-  20ba94fd869bf041:
-    en:
-      properties:
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: Powerful Configuration at Your Fingertips
+            text: 完全可定制以适应您的工作流
             style:
               variant: h2
-    zh:
-      properties:
-        v5utpm7bu9yvdpnq:
-          value: center
-        kyg0hdy5uqq4gc1o:
-          value: center
-        gs1rn5jmxfvpxptx:
-          value:
-            text: 强大的配置触手可及
-            style:
-              variant: h2
-  817182083c864ca7:
+  885bcd5e27cdecdc:
     en:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: Customize for Security-Focused Reviews
+            text: Security-Focused Reviews
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -3785,9 +4001,10 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: Direct the AI to prioritize security vulnerabilities. Tailor the system
-                  message to focus on authentication, input validation, SQL
-                  injection, and more to harden your code.
+                text: Tailor the AI's personality to prioritize security. With a custom system
+                  message, you can direct it to focus on identifying
+                  authentication flaws, input validation issues, SQL injection
+                  vulnerabilities, and more.
                 style:
                   color: ""
                   fontSize: 16px
@@ -3800,7 +4017,7 @@ dataSource:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 定制以进行安全重点审查
+            text: 注重安全的审查
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -3808,7 +4025,7 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: 引导 AI 优先处理安全漏洞。定制系统消息，使其专注于身份验证、输入验证、SQL 注入等，以加固您的代码。
+                text: 定制 AI 的特性以优先考虑安全性。通过自定义系统消息，您可以指示它专注于识别认证缺陷、输入验证问题、SQL 注入漏洞等。
                 style:
                   color: ""
                   fontSize: 16px
@@ -3817,7 +4034,7 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  a82e1b29031cca63:
+  2002969bcdca7cd8:
     en:
       properties:
         a7frn5jmx5vpxpt3:
@@ -3831,7 +4048,7 @@ dataSource:
               - Data exposure risks
               - Cryptographic best practices
         b2jrz12ik7esf93z:
-          value: system_message
+          value: action.yml
         d8hvf7cxz93jk5p:
           value: 1rem
         qvxiyadgn5bj6oq8:
@@ -3841,25 +4058,25 @@ dataSource:
         a7frn5jmx5vpxpt3:
           value: |-
             system_message: |
-              你是一名专注于安全的代码审查员。请优先识别：
-              - 身份验证和授权缺陷
+              您是一名注重安全的代码审查员。请优先识别：
+              - 认证和授权缺陷
               - 输入验证问题
               - SQL 注入漏洞
               - XSS 预防
-              - 数据泄露风险
+              - 数据暴露风险
               - 加密最佳实践
         b2jrz12ik7esf93z:
-          value: system_message
+          value: action.yml
         d8hvf7cxz93jk5p:
           value: 1rem
         qvxiyadgn5bj6oq8:
           value: false
-  4e2134a6e3b4cab7:
+  44e748222ddf4dc7:
     en:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: Focus on Architecture & Performance
+            text: Architecture & Performance Reviews
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -3867,9 +4084,10 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: Need high-level feedback? Configure the AI to act as an architectural
-                  reviewer, focusing on design patterns, performance
-                  bottlenecks, scalability, and SOLID principles.
+                text: Shift the focus to high-level architectural concerns. Customize the prompt
+                  to have the AI analyze system design patterns, performance
+                  bottlenecks, scalability, and code maintainability, ensuring
+                  your codebase is built to last.
                 style:
                   color: ""
                   fontSize: 16px
@@ -3882,7 +4100,7 @@ dataSource:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 专注于架构与性能
+            text: 架构与性能审查
             style:
               variant: h4
         9ajrz12ik7esfk1z:
@@ -3890,7 +4108,7 @@ dataSource:
             list:
               - id: item-1759185456428-p8i1jjk33
                 type: text
-                text: 需要高层级的反馈？将 AI 配置为架构审查员，专注于设计模式、性能瓶颈、可扩展性和 SOLID 原则。
+                text: 将焦点转移到高层架构问题上。自定义提示，让 AI 分析系统设计模式、性能瓶颈、可扩展性和代码可维护性，确保您的代码库经久耐用。
                 style:
                   color: ""
                   fontSize: 16px
@@ -3899,7 +4117,7 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
-  c2d7f55c5df20d3e:
+  223034d6e9b6a8b8:
     en:
       properties:
         a7frn5jmx5vpxpt3:
@@ -3913,7 +4131,7 @@ dataSource:
               - SOLID principles
               - Database optimization
         b2jrz12ik7esf93z:
-          value: system_message
+          value: action.yml
         d8hvf7cxz93jk5p:
           value: 1rem
         qvxiyadgn5bj6oq8:
@@ -3923,7 +4141,7 @@ dataSource:
         a7frn5jmx5vpxpt3:
           value: |-
             system_message: |
-              你是一名架构审查员，专注于：
+              您是一名专注于架构的审查员，重点关注：
               - 系统设计模式
               - 性能瓶颈
               - 可扩展性问题
@@ -3931,19 +4149,19 @@ dataSource:
               - SOLID 原则
               - 数据库优化
         b2jrz12ik7esf93z:
-          value: system_message
+          value: action.yml
         d8hvf7cxz93jk5p:
           value: 1rem
         qvxiyadgn5bj6oq8:
           value: false
-  a5b3aa477bc1560a:
+  6f16c123f36996db:
     en:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: Frequently Asked Questions
+            text: Support & Community
             style:
-              variant: h2
+              variant: h1
         v5utpm7bu9yvdpnq:
           value: center
         kyg0hdy5uqq4gc1o:
@@ -3955,9 +4173,9 @@ dataSource:
       properties:
         gs1rn5jmxfvpxptx:
           value:
-            text: 常见问题解答
+            text: 支持与社区
             style:
-              variant: h2
+              variant: h1
         v5utpm7bu9yvdpnq:
           value: center
         kyg0hdy5uqq4gc1o:
@@ -3965,34 +4183,27 @@ dataSource:
         9ajrz12ik7esfk1z:
           value:
             list: []
-  33de34a3c038929a:
+  c964024cd4f939a2:
     en:
       properties:
         4221qi1bxy322mf4:
           value:
-            - title: How can I contribute to AIGNE CodeSmith?
-              answer: We love contributions! You can fork the repo, make your changes, and
-                submit a pull request. Check out our contribution guidelines for
-                details on code style and tests. We welcome bug fixes, new
-                features, and documentation improvements.
-            - title: Where can I find more detailed documentation?
-              answer: For in-depth guides and advanced configuration options, please check out
-                the project's official GitHub Wiki. It's the best place for
-                detailed information.
-            - title: What if I find a bug or have a feature idea?
-              answer: We'd love to hear from you! Please open an issue on our GitHub
-                repository. Use the 'Bug Report' template for bugs and the
-                'Feature Request' template for new ideas. This helps us track
-                and address them effectively.
-            - title: How do I get support if I run into a problem?
-              answer: The best way to get help is to start a conversation in our GitHub
-                Discussions. The community and our team are active there and can
-                help you troubleshoot any issues.
-            - title: Can I use a different AI model besides Claude 3.5 Sonnet?
-              answer: Yes, AIGNE CodeSmith is flexible! You can configure the
-                `anthropic_light_model` and `anthropic_heavy_model` parameters
-                in your workflow file to use other compatible models from
-                Anthropic.
+            - title: Where can I find detailed documentation?
+              answer: You can check out our Wiki for detailed guides and comprehensive
+                documentation on every feature and configuration option.
+            - title: How do I report a bug?
+              answer: Found an issue? We'd love to hear about it! Please open an issue on our
+                GitHub repository with detailed reproduction steps so we can get
+                it fixed.
+            - title: I have a great idea for a new feature. Where can I suggest it?
+              answer: We're all ears! You can suggest improvements and new features by
+                creating a feature request issue on our GitHub. Let's build
+                something amazing together!
+            - title: Is there a place to discuss the project with the community?
+              answer: Absolutely! Join our GitHub Discussions to ask questions, share ideas,
+                and connect with other AIGNE CodeSmith users and contributors.
+            - title: ""
+              answer: ""
             - title: ""
               answer: ""
             - title: ""
@@ -4007,19 +4218,14 @@ dataSource:
       properties:
         4221qi1bxy322mf4:
           value:
-            - title: 我如何为 AIGNE CodeSmith 做出贡献？
-              answer: 我们欢迎任何贡献！您可以 fork
-                仓库，进行更改，然后提交拉取请求。请查看我们的贡献指南，了解有关代码风格和测试的详细信息。我们欢迎错误修复、新功能和文档改进。
-            - title: 我在哪里可以找到更详细的文档？
-              answer: 有关深入指南和高级配置选项，请查看该项目的官方 GitHub Wiki。那里是获取详细信息的最佳位置。
-            - title: 如果我发现一个 bug 或有一个功能想法怎么办？
-              answer: 我们很乐意听取您的意见！请在我们的 GitHub 仓库中开启一个 issue。对于 bug，请使用“Bug
-                Report”模板；对于新想法，请使用“Feature Request”模板。这有助于我们有效地跟踪和处理它们。
-            - title: 如果遇到问题，我该如何获得支持？
-              answer: 获得帮助的最佳方式是在我们的 GitHub Discussions 中发起一个对话。社区和我们的团队在那里都很活跃，可以帮助您解决任何问题。
-            - title: 除了 Claude 3.5 Sonnet，我可以使用其他 AI 模型吗？
-              answer: 是的，AIGNE CodeSmith 非常灵活！您可以在工作流文件中配置 `anthropic_light_model` 和
-                `anthropic_heavy_model` 参数，以使用 Anthropic 提供的其他兼容模型。
+            - title: 我在哪里可以找到详细的文档？
+              answer: 您可以查看我们的 Wiki，获取关于每个功能和配置选项的详细指南和全面文档。
+            - title: 我如何报告错误？
+              answer: 发现问题了吗？我们很乐意倾听！请在我们的 GitHub 仓库中提交一个 issue，并提供详细的复现步骤，以便我们修复。
+            - title: 我有一个很棒的新功能想法。我可以在哪里提出建议？
+              answer: 我们洗耳恭听！您可以通过在我们的 GitHub 上创建一个功能请求 issue 来建议改进和新功能。让我们一起构建出色的产品！
+            - title: 有可以与社区讨论项目的地方吗？
+              answer: 当然有！加入我们的 GitHub Discussions 提问、分享想法，并与其他 AIGNE CodeSmith 用户和贡献者建立联系。
             - title: ""
               answer: ""
             - title: ""
@@ -4030,7 +4236,9 @@ dataSource:
               answer: ""
             - title: ""
               answer: ""
-  d09b7818c7690ba7:
+            - title: ""
+              answer: ""
+  546b53d9736d866f:
     en:
       properties:
         9ajrz12ik7esfk1z:
@@ -4038,16 +4246,16 @@ dataSource:
             list:
               - id: item-1759121327460-gc8w9kaxt
                 type: text
-                text: Stop wasting time on manual reviews and start leveraging the power of AI.
-                  Improve your code quality, accelerate your development cycle,
-                  and empower your team today.
+                text: Stop wasting time on manual reviews and let our AI handle the heavy
+                  lifting. Get started today and experience a faster, smarter,
+                  and more efficient development workflow.
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
         gs1rn5jmxfvpxptx:
           value:
-            text: Ready to Revolutionize Your Code Reviews?
+            text: Ready to Supercharge Your Code Reviews?
             style:
               color: ""
               variant: h1
@@ -4062,14 +4270,14 @@ dataSource:
             list:
               - id: item-1759121327460-gc8w9kaxt
                 type: text
-                text: 停止在手动审查上浪费时间，开始利用 AI 的力量。立即提高您的代码质量，加速开发周期，并为您的团队赋能。
+                text: 不要再浪费时间进行手动审查，让我们的 AI 来处理繁重的工作。立即开始，体验更快、更智能、更高效的开发工作流。
                 style:
                   color: ""
                   fontSize: 16px
                   variant: body1
         gs1rn5jmxfvpxptx:
           value:
-            text: 准备好彻底改变您的代码审查了吗？
+            text: 准备好为您的代码审查增效了吗？
             style:
               color: ""
               variant: h1
@@ -4077,18 +4285,18 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
-  a87e209e42b406cd:
+  713cf5a8b823e5f4:
     en:
       properties:
         b8x4m3n9kp7qtw5r:
           value:
             - id: btn-default-1
               type: link
-              text: Try AIGNE CodeSmith Now
+              text: Get Started on GitHub
               url: https://github.com/aigne-io/aigne-codesmith
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -4106,11 +4314,11 @@ dataSource:
           value:
             - id: btn-default-1
               type: link
-              text: 立即试用 AIGNE CodeSmith
+              text: 在 GitHub 上开始使用
               url: https://github.com/aigne-io/aigne-codesmith
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""

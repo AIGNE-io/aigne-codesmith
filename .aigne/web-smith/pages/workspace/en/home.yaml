@@ -1,176 +1,466 @@
-meta:
-  title: "AIGNE CodeSmith: AI-Powered Code Reviews & PR Summaries"
-  description: "Accelerate your development workflow with AIGNE CodeSmith. Get intelligent, context-aware code reviews and automated PR summaries powered by Claude's advanced AI to improve code quality and save time."
-  image: "mediakit://aigne-codesmith-hero-visual.png"
-sections:
-  - sectionName: "hero"
-    sectionSummary: "An engaging hero section designed to immediately capture visitor attention with a strong value proposition, compelling visuals, and clear calls-to-action to drive initial engagement."
-    splitHeroTitle: "AI-Powered Code Reviews That Actually Understand Your Code"
-    splitHeroDescription: "Stop just checking syntax. AIGNE CodeSmith leverages Claude's advanced reasoning to provide deep, context-aware feedback, helping you ship better code, faster. Get intelligent PR summaries and line-by-line reviews right in GitHub."
-    splitHeroActions:
-      - text: "Get Started Now"
-        link: "https://github.com/aigne-io/aigne-codesmith"
-      - text: "Read the Docs"
-        link: "https://github.com/aigne-io/aigne-codesmith/wiki"
-    splitHeroRightImage: "mediakit://aigne-codesmith-hero-visual.png"
-  - sectionName: "keyFeatures"
-    sectionSummary: "Highlights the core differentiators of AIGNE CodeSmith in a scannable grid format. This section's purpose is to quickly communicate what makes the product special and valuable."
-    threeColumnGridTitle: "Why AIGNE CodeSmith is a Game-Changer"
-    list:
-      - sectionName: "contextAwareReviews"
-        sectionSummary: "Feature highlight for Context-Aware Reviews."
-        iconName: "lucide:brain-circuit"
-        cardTitle: "Context-Aware Reviews"
-        cardDescription: "Leverages Claude's superior reasoning to understand the intent and architecture behind your code, providing feedback that goes beyond simple syntax."
-      - sectionName: "dualModelEfficiency"
-        sectionSummary: "Feature highlight for Dual-Model Efficiency."
-        iconName: "lucide:zap"
-        cardTitle: "Dual-Model Efficiency"
-        cardDescription: "Smartly optimizes costs by using lightweight models for quick summaries and powerful models for deep, line-by-line analysis."
-      - sectionName: "focusOnImpact"
-        sectionSummary: "Feature highlight for focusing on important changes."
-        iconName: "lucide:filter"
-        cardTitle: "Focus on What Matters"
-        cardDescription: "Automatically skips trivial changes like typos and formatting, so your team can focus on the critical issues that truly impact code quality."
-  - sectionName: "coreCapabilities"
-    sectionSummary: "Visually demonstrates the main features of the product using a combination of text and actual product screenshots, making the benefits tangible and easy to understand."
-    twoColumnGridTitle: "Everything You Need to Supercharge Your Workflow"
-    list:
-      - sectionName: "prSummarization"
-        sectionSummary: "Showcases the PR Summarization feature with a relevant image."
-        contentCardTitle: "Automated PR Summaries & Release Notes"
-        contentCardDescription: "Save tons of time! Get concise, auto-generated summaries of every pull request. Understand complex changes at a glance and generate release notes effortlessly."
-        contentCardRightImage: "mediakit://pr-summary.png"
-      - sectionName: "lineByLineReviews"
-        sectionSummary: "Showcases the Line-by-Line Reviews feature with a relevant image."
-        contentCardTitle: "Intelligent Line-by-Line Reviews"
-        contentCardDescription: "Receive contextual suggestions for improvements right where you need them. Catch potential bugs, security issues, and architectural problems before they ever hit production."
-        contentCardRightImage: "mediakit://pr-review-comment.png"
-      - sectionName: "costOptimization"
-        sectionSummary: "Showcases the Cost Optimization feature with a relevant image."
-        contentCardTitle: "Smart Cost Optimization"
-        contentCardDescription: "Keep your costs low without sacrificing quality. Our incremental reviews only analyze changed files, maximizing your coverage while minimizing API usage."
-        contentCardRightImage: "mediakit://pr-title-suggestion.png"
-      - sectionName: "customPrompts"
-        sectionSummary: "Showcases the Custom Prompts feature with a relevant image."
-        contentCardTitle: "Fully Customizable to Your Standards"
-        contentCardDescription: "Make it yours! Tailor the review criteria, tone, and focus areas with custom prompts to ensure the AI's feedback perfectly aligns with your team's unique practices."
-        contentCardRightImage: "mediakit://pr-walkthrough.png"
-  - sectionName: "quickStartGuide"
-    sectionSummary: "Provides a simple, step-by-step guide to get users started with the product quickly. This section is designed to be highly actionable and remove any friction to adoption."
-    oneColumnGridTitle: "Get Started in Under 2 Minutes"
-    list:
-      - sectionName: "stepOneWorkflow"
-        sectionSummary: "First step of the quick start guide: adding the GitHub workflow file."
-        contentCardTitle: "Step 1: Add the Workflow File"
-        contentCardDescription: "Just drop this YAML file into your repository at `.github/workflows/aigne-codesmith.yml`. It's all you need to kick things off!"
-        contentCardBottomCode:
-          name: "aigne-codesmith.yml"
-          content: "name: 🤖 AI Code Review\n\npermissions:\n  contents: read\n  pull-requests: write\n\non:\n  pull_request:\n  pull_request_review_comment:\n    types: [created]\n\njobs:\n  review:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: aigne-io/aigne-codesmith@latest\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}"
-      - sectionName: "stepTwoSecrets"
-        sectionSummary: "Second step of the quick start guide: configuring API secrets."
-        contentCardTitle: "Step 2: Add Your Anthropic API Key"
-        contentCardDescription: "Head over to your repository's Settings > Secrets and variables > Actions, and add your Anthropic API key as `ANTHROPIC_API_KEY`."
-        contentCardBottomImage: "mediakit://github-action-secret.png"
-      - sectionName: "stepThreeDone"
-        sectionSummary: "Final step of the quick start guide: celebrating completion."
-        iconName: "lucide:party-popper"
-        cardTitle: "Step 3: You're All Set! 🎉"
-        cardDescription: "That's it! Open your next pull request and watch the magic happen. AIGNE CodeSmith will automatically jump in to provide intelligent reviews."
-  - sectionName: "useCases"
-    sectionSummary: "Demonstrates the product's versatility by showcasing its benefits for different types of teams, from large enterprises to open-source projects, building broader appeal."
-    threeColumnGridTitle: "Perfect for Teams of All Shapes and Sizes"
-    list:
-      - sectionName: "enterpriseTeams"
-        sectionSummary: "Use case for enterprise teams."
-        iconName: "lucide:building-2"
-        cardTitle: "Enterprise Teams"
-        cardDescription: "Maintain consistent standards, perform security reviews, and provide architectural guidance across massive codebases with ease."
-      - sectionName: "startups"
-        sectionSummary: "Use case for startups."
-        iconName: "lucide:rocket"
-        cardTitle: "Startups & Small Teams"
-        cardDescription: "Move fast without breaking things. Maintain high code quality, save precious time, and get instant feedback 24/7."
-      - sectionName: "openSource"
-        sectionSummary: "Use case for open source projects."
-        iconName: "lucide:github"
-        cardTitle: "Open Source Projects"
-        cardDescription: "Guide new contributors, ensure consistent quality across a diverse community, and auto-generate release notes to keep everyone in the loop."
-  - sectionName: "testimonials"
-    sectionSummary: "Builds trust and credibility through social proof, featuring real-world testimonials from satisfied users that highlight tangible benefits and successes."
-    twoColumnGridTitle: "What Developers Are Saying"
-    list:
-      - sectionName: "testimonialOne"
-        sectionSummary: "First user testimonial."
-        userReview:
-          content: "AIGNE CodeSmith caught 3 critical security issues in our authentication system that we missed in manual reviews. The architectural suggestions helped us improve our code structure significantly."
-          userName: "Sarah Chen"
-          description: "Lead Developer at TechFlow"
-          avatarImage: ""
-      - sectionName: "testimonialTwo"
-        sectionSummary: "Second user testimonial."
-        userReview:
-          content: "We reduced our code review time by 60% while actually improving code quality. The AI provides context that junior developers found incredibly valuable."
-          userName: "Marcus Rodriguez"
-          description: "Engineering Manager at DataSync"
-          avatarImage: ""
-  - sectionName: "pricing"
-    sectionSummary: "Provides transparent and easy-to-understand pricing information. This section helps potential customers quickly assess the cost and value proposition for their team size."
-    threeColumnGridTitle: "Transparent and Simple Pricing"
-    list:
-      - sectionName: "pricingTierSmall"
-        sectionSummary: "Pricing for small teams."
-        metricCardTitle: "5 developers"
-        metricCardData: "$3-5 / day"
-        metricCardDescription: "Based on ~20 PRs daily"
-      - sectionName: "pricingTierMedium"
-        sectionSummary: "Pricing for medium teams."
-        metricCardTitle: "20 developers"
-        metricCardData: "$12-20 / day"
-        metricCardDescription: "Based on ~80 PRs daily"
-      - sectionName: "pricingTierLarge"
-        sectionSummary: "Pricing for large teams."
-        metricCardTitle: "50+ developers"
-        metricCardData: "$30-50 / day"
-        metricCardDescription: "Based on ~200 PRs daily"
-  - sectionName: "configurationOptions"
-    sectionSummary: "Details the customization and configuration options available, demonstrating the product's flexibility and empowering users to tailor it to their specific needs."
-    oneColumnGridTitle: "Powerful Configuration at Your Fingertips"
-    list:
-      - sectionName: "securityFocusedReview"
-        sectionSummary: "Example of a security-focused custom prompt."
-        contentCardTitle: "Customize for Security-Focused Reviews"
-        contentCardDescription: "Direct the AI to prioritize security vulnerabilities. Tailor the system message to focus on authentication, input validation, SQL injection, and more to harden your code."
-        contentCardBottomCode:
-          name: "system_message"
-          content: "system_message: |\n  You are a security-focused code reviewer. Prioritize identifying:\n  - Authentication and authorization flaws\n  - Input validation issues\n  - SQL injection vulnerabilities\n  - XSS prevention\n  - Data exposure risks\n  - Cryptographic best practices"
-      - sectionName: "architecturePerformanceReview"
-        sectionSummary: "Example of an architecture and performance-focused custom prompt."
-        contentCardTitle: "Focus on Architecture & Performance"
-        contentCardDescription: "Need high-level feedback? Configure the AI to act as an architectural reviewer, focusing on design patterns, performance bottlenecks, scalability, and SOLID principles."
-        contentCardBottomCode:
-          name: "system_message"
-          content: "system_message: |\n  You are an architectural reviewer focusing on:\n  - System design patterns\n  - Performance bottlenecks\n  - Scalability concerns\n  - Code maintainability\n  - SOLID principles\n  - Database optimization"
-  - sectionName: "faq"
-    sectionSummary: "Addresses common questions about contributing, support, and getting started. This FAQ section aims to proactively resolve user queries and encourage community engagement."
-    faqTitle: "Frequently Asked Questions"
-    faqList:
-      - question: "How can I contribute to AIGNE CodeSmith?"
-        answer: "We love contributions! You can fork the repo, make your changes, and submit a pull request. Check out our contribution guidelines for details on code style and tests. We welcome bug fixes, new features, and documentation improvements."
-      - question: "Where can I find more detailed documentation?"
-        answer: "For in-depth guides and advanced configuration options, please check out the project's official GitHub Wiki. It's the best place for detailed information."
-      - question: "What if I find a bug or have a feature idea?"
-        answer: "We'd love to hear from you! Please open an issue on our GitHub repository. Use the 'Bug Report' template for bugs and the 'Feature Request' template for new ideas. This helps us track and address them effectively."
-      - question: "How do I get support if I run into a problem?"
-        answer: "The best way to get help is to start a conversation in our GitHub Discussions. The community and our team are active there and can help you troubleshoot any issues."
-      - question: "Can I use a different AI model besides Claude 3.5 Sonnet?"
-        answer: "Yes, AIGNE CodeSmith is flexible! You can configure the `anthropic_light_model` and `anthropic_heavy_model` parameters in your workflow file to use other compatible models from Anthropic."
-  - sectionName: "finalCta"
-    sectionSummary: "A final, high-impact call-to-action section designed to convert visitors. It restates the core benefit and provides a clear, unmissable button to get started."
-    ctaTitle: "Ready to Revolutionize Your Code Reviews?"
-    ctaDescription: "Stop wasting time on manual reviews and start leveraging the power of AI. Improve your code quality, accelerate your development cycle, and empower your team today."
-    cta:
-      - text: "Try AIGNE CodeSmith Now"
-        link: "https://github.com/aigne-io/aigne-codesmith"
-      - text: ""
-        link: ""
+"meta":
+  "title": "AIGNE CodeSmith: AI-Powered Code Reviews & PR Summaries"
+  "description": "Accelerate your development workflow with AIGNE CodeSmith. Get intelligent, context-aware code reviews and PR summaries powered by Claude's advanced reasoning to improve code quality and save time."
+  "image": "mediakit://hero-aigne-codesmith-visual.png"
+"sections":
+  - "sectionName": "hero"
+    "sectionSummary": "This hero section introduces AIGNE CodeSmith with a compelling headline, a brief explanation of its value proposition, and clear calls-to-action to get started. It's designed to grab the visitor's attention and encourage them to explore the product."
+    "splitHeroBigTitle": "AI-Powered Code Reviews That Actually Understand Your Code"
+    "splitHeroSubTitle": "Accelerate your development workflow with intelligent, context-aware code reviews using Claude's advanced reasoning capabilities."
+    "splitHeroDescription": "Transform your code review process. AIGNE CodeSmith doesn't just check syntax—it understands context, identifies architectural issues, and provides thoughtful feedback that helps your team grow."
+    "splitHeroActions":
+      - "text": "Get Started on GitHub"
+        "link": "https://github.com/aigne-io/aigne-codesmith"
+      - "text": "Explore Features"
+        "link": "#features"
+    "splitHeroImage": "mediakit://hero-aigne-codesmith-visual.png"
+  - "sectionName": "features"
+    "sectionSummary": "This section highlights the core features of AIGNE CodeSmith, showcasing its main capabilities in a visually engaging 3-column grid. Each feature is presented with an icon and a brief description, making it easy for users to quickly grasp the product's benefits."
+    "threeColumnGridTitle": "Everything You Need for Smarter Code Reviews"
+    "list":
+      - "sectionName": "prSummarization"
+        "sectionSummary": "Details the PR Summarization feature."
+        "iconName": "lucide:file-text"
+        "cardTitle": "PR Summarization"
+        "cardDescription": "Automatically generates concise summaries and release notes, so you can understand changes at a glance and save precious time."
+      - "sectionName": "lineByLineReviews"
+        "sectionSummary": "Details the Line-by-Line Reviews feature."
+        "iconName": "lucide:search-code"
+        "cardTitle": "Line-by-Line Reviews"
+        "cardDescription": "Get contextual suggestions for code improvements right where they matter, helping you catch issues before they ever reach production."
+      - "sectionName": "costOptimization"
+        "sectionSummary": "Details the Cost Optimization feature."
+        "iconName": "lucide:dollar-sign"
+        "cardTitle": "Cost Optimization"
+        "cardDescription": "Incremental reviews track only changed files, minimizing API costs while maximizing your code coverage. It's efficiency built-in!"
+      - "sectionName": "smartAnalysis"
+        "sectionSummary": "Details the Smart Analysis feature."
+        "iconName": "lucide:brain-circuit"
+        "cardTitle": "Smart Analysis"
+        "cardDescription": "Leverages the power of Claude-3.5-Sonnet for superior reasoning, giving you deep architectural insights, not just simple syntax checks."
+      - "sectionName": "intelligentSkipping"
+        "sectionSummary": "Details the Intelligent Skipping feature."
+        "iconName": "lucide:fast-forward"
+        "cardTitle": "Intelligent Skipping"
+        "cardDescription": "Our AI is smart enough to ignore trivial changes like typos and formatting, keeping your reviewers focused on what truly matters."
+      - "sectionName": "customPrompts"
+        "sectionSummary": "Details the Custom Prompts feature."
+        "iconName": "lucide:settings-2"
+        "cardTitle": "Custom Prompts"
+        "cardDescription": "Fully customizable review criteria and tone. Adapt the AI to your team's unique standards and practices effortlessly."
+  - "sectionName": "quickStart"
+    "sectionSummary": "This section provides a simple, step-by-step guide to get started with AIGNE CodeSmith. It breaks down the process into three easy actions, complete with code snippets and visuals to ensure a frictionless setup experience."
+    "oneColumnGridTitle": "Get Up and Running in Under 2 Minutes"
+    "list":
+      - "sectionName": "addWorkflow"
+        "sectionSummary": "First step of the Quick Start guide adding the GitHub workflow file."
+        "contentCardTitle": "Step 1: Add the Workflow"
+        "contentCardDescription": "Just add one file to your repository! Create a new file at `.github/workflows/aigne-codesmith.yml` and paste in the following configuration. It’s that simple!"
+        "contentCardRightCode":
+          "name": "aigne-codesmith.yml"
+          "content": "name: 🤖 AI Code Review
+
+
+            permissions:
+
+            \  contents: read
+
+            \  pull-requests: write
+
+
+            on:
+
+            \  pull_request:
+
+            \  pull_request_review_comment:
+
+            \    types: [created]
+
+
+            concurrency:
+
+            \  group:
+
+            \    ${{ github.repository }}-${{ github.event.number || github.head_ref || github.sha }}-${{ github.workflow }}-${{ github.event_name == 'pull_request_review_comment' && 'pr_comment' || 'pr' }}
+
+            \  cancel-in-progress: ${{ github.event_name != 'pull_request_review_comment' }}
+
+
+            jobs:
+
+            \  review:
+
+            \    runs-on: ubuntu-latest
+
+            \    steps:
+
+            \      - uses: aigne-io/aigne-codesmith@latest
+
+            \        env:
+
+            \          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            \          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+            \        with:
+
+            \          debug: false
+
+            \          review_simple_changes: false
+
+            \          review_comment_lgtm: false"
+      - "sectionName": "configureSecrets"
+        "sectionSummary": "Second step of the Quick Start guide configuring the API key secret in GitHub."
+        "contentCardTitle": "Step 2: Configure Secrets"
+        "contentCardDescription": "Time to secure your API key. Head over to your repository's Settings > Secrets and variables > Actions. Click 'New repository secret', name it `ANTHROPIC_API_KEY`, and paste your key from the Anthropic Console."
+        "contentCardLeftScreenShot": "mediakit://github-action-secret.png"
+        "screenShotBackground": "linear-gradient(120deg, rgba(96,89,171,1) 0%, rgba(130,125,190,1) 100%)"
+      - "sectionName": "startReviewing"
+        "sectionSummary": "Final step of the Quick Start guide confirmation that the setup is complete."
+        "contentCardTitle": "Step 3: You're All Set! 🎉"
+        "contentCardDescription": "And that's it! Open a new pull request and watch the magic happen. AIGNE CodeSmith will automatically jump in to provide intelligent, helpful reviews. Happy coding!"
+        "contentCardRightScreenShot": "mediakit://pr-review-comment.png"
+        "screenShotBackground": "linear-gradient(120deg, rgba(95,116,118,1) 0%, rgba(131,158,153,1) 100%)"
+  - "sectionName": "useCases"
+    "sectionSummary": "This section showcases the versatility of AIGNE CodeSmith by presenting its benefits for different types of teams—Enterprises, Startups, and Open Source projects. It helps potential users visualize how the tool can fit into their specific workflow."
+    "threeColumnGridTitle": "Powerful for Teams of Any Scale"
+    "list":
+      - "sectionName": "enterpriseTeams"
+        "sectionSummary": "Use case for enterprise teams."
+        "iconName": "lucide:building"
+        "cardTitle": "Enterprise Teams"
+        "cardDescription": "Maintain consistent standards across large codebases, catch security vulnerabilities early, and provide architectural guidance to keep your projects robust and secure."
+      - "sectionName": "startups"
+        "sectionSummary": "Use case for startups and small teams."
+        "iconName": "lucide:rocket"
+        "cardTitle": "Startups & Small Teams"
+        "cardDescription": "Uphold high code quality without dedicated reviewers, share knowledge through AI suggestions, and save time to focus on what you do best: building amazing features."
+      - "sectionName": "openSource"
+        "sectionSummary": "Use case for open source projects."
+        "iconName": "lucide:users"
+        "cardTitle": "Open Source Projects"
+        "cardDescription": "Guide new contributors, ensure consistent review quality across the board, and even auto-generate release notes to keep your community informed and engaged."
+  - "sectionName": "testimonials"
+    "sectionSummary": "This section builds trust and credibility by featuring real-world testimonials from satisfied users. It provides social proof of AIGNE CodeSmith's impact on code quality and team efficiency, making the benefits feel tangible and relatable."
+    "twoBentoGridTitle": "Real-World Impact"
+    "list":
+      - "sectionName": "sarahChenTestimonial"
+        "sectionSummary": "Testimonial from Sarah Chen."
+        "userReview":
+          "content": "\"AIGNE CodeSmith caught 3 critical security issues in our authentication system that we missed in manual reviews. The architectural suggestions helped us improve our code structure significantly.\""
+          "avatarImage": ""
+          "userName": "Sarah Chen"
+          "description": "Lead Developer at TechFlow"
+      - "sectionName": "marcusRodriguezTestimonial"
+        "sectionSummary": "Testimonial from Marcus Rodriguez."
+        "userReview":
+          "content": "\"We reduced our code review time by 60% while actually improving code quality. The AI provides context that junior developers found incredibly valuable.\""
+          "avatarImage": ""
+          "userName": "Marcus Rodriguez"
+          "description": "Engineering Manager at DataSync"
+  - "sectionName": "pricing"
+    "sectionSummary": "This section provides transparent and easy-to-understand pricing estimates. By breaking down costs based on team size and daily usage, it helps potential customers gauge the tool's affordability and value proposition."
+    "comparisonTableTitle": "Transparent & Simple Pricing"
+    "featureTitle": "Usage"
+    "f":
+      - "l": "Daily Pull Requests"
+        "t": ""
+        "i": ""
+      - "l": "Estimated Daily Cost"
+        "t": "Costs vary based on code complexity and review depth. Claude models are significantly more cost-effective than GPT-4."
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+    "e":
+      - "l": "5 Developers"
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": ""
+        "al": ""
+        "au": ""
+        "at": ""
+      - "l": "20 Developers"
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": ""
+        "al": ""
+        "au": ""
+        "at": ""
+      - "l": "50+ Developers"
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": "true"
+        "al": "Contact Sales"
+        "au": "mailto:sales@aigne.io"
+        "at": ""
+      - "l": ""
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": ""
+        "al": ""
+        "au": ""
+        "at": ""
+    "m":
+      "f0":
+        "e0":
+          "v": "~20 PRs"
+          "t": ""
+          "h": ""
+        "e1":
+          "v": "~80 PRs"
+          "t": ""
+          "h": ""
+        "e2":
+          "v": "~200 PRs"
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f1":
+        "e0":
+          "v": "$3-5 / day"
+          "t": ""
+          "h": ""
+        "e1":
+          "v": "$12-20 / day"
+          "t": ""
+          "h": ""
+        "e2":
+          "v": "$30-50 / day"
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f2":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f3":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f4":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f5":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f6":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f7":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f8":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f9":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+  - "sectionName": "configuration"
+    "sectionSummary": "This section details the various configuration options available in AIGNE CodeSmith, from basic parameters to advanced custom prompts. It empowers users to tailor the tool to their specific needs, showcasing its flexibility and power."
+    "oneColumnGridTitle": "Fully Customizable to Fit Your Workflow"
+    "list":
+      - "sectionName": "securityFocusedReviews"
+        "sectionSummary": "Configuration example for security-focused reviews."
+        "contentCardTitle": "Security-Focused Reviews"
+        "contentCardDescription": "Tailor the AI's personality to prioritize security. With a custom system message, you can direct it to focus on identifying authentication flaws, input validation issues, SQL injection vulnerabilities, and more."
+        "contentCardBottomCode":
+          "name": "action.yml"
+          "content": "system_message: |
+
+            \  You are a security-focused code reviewer. Prioritize identifying:
+
+            \  - Authentication and authorization flaws
+
+            \  - Input validation issues
+
+            \  - SQL injection vulnerabilities
+
+            \  - XSS prevention
+
+            \  - Data exposure risks
+
+            \  - Cryptographic best practices"
+      - "sectionName": "architecturePerformanceReviews"
+        "sectionSummary": "Configuration example for architecture and performance reviews."
+        "contentCardTitle": "Architecture & Performance Reviews"
+        "contentCardDescription": "Shift the focus to high-level architectural concerns. Customize the prompt to have the AI analyze system design patterns, performance bottlenecks, scalability, and code maintainability, ensuring your codebase is built to last."
+        "contentCardBottomCode":
+          "name": "action.yml"
+          "content": "system_message: |
+
+            \  You are an architectural reviewer focusing on:
+
+            \  - System design patterns
+
+            \  - Performance bottlenecks
+
+            \  - Scalability concerns
+
+            \  - Code maintainability
+
+            \  - SOLID principles
+
+            \  - Database optimization"
+  - "sectionName": "support"
+    "sectionSummary": "This FAQ section provides answers to common questions about getting help, reporting bugs, and requesting features. It ensures users have a clear path to support and community engagement, fostering a positive and collaborative environment."
+    "faqTitle": "Support & Community"
+    "faqList":
+      - "question": "Where can I find detailed documentation?"
+        "answer": "You can check out our Wiki for detailed guides and comprehensive documentation on every feature and configuration option."
+      - "question": "How do I report a bug?"
+        "answer": "Found an issue? We'd love to hear about it! Please open an issue on our GitHub repository with detailed reproduction steps so we can get it fixed."
+      - "question": "I have a great idea for a new feature. Where can I suggest it?"
+        "answer": "We're all ears! You can suggest improvements and new features by creating a feature request issue on our GitHub. Let's build something amazing together!"
+      - "question": "Is there a place to discuss the project with the community?"
+        "answer": "Absolutely! Join our GitHub Discussions to ask questions, share ideas, and connect with other AIGNE CodeSmith users and contributors."
+  - "sectionName": "finalCta"
+    "sectionSummary": "This final call-to-action section is designed to convert visitors into users. It presents a clear, compelling message and a prominent button, encouraging them to take the next step and integrate AIGNE CodeSmith into their workflow."
+    "ctaTitle": "Ready to Supercharge Your Code Reviews?"
+    "ctaDescription": "Stop wasting time on manual reviews and let our AI handle the heavy lifting. Get started today and experience a faster, smarter, and more efficient development workflow."
+    "cta":
+      - "text": "Get Started on GitHub"
+        "link": "https://github.com/aigne-io/aigne-codesmith"
+      - "text": ""
+        "link": ""

@@ -1,176 +1,466 @@
-meta:
-  title: "AIGNE CodeSmith：AI 驱动的代码审查与 PR 摘要"
-  description: "使用 AIGNE CodeSmith 加速您的开发工作流。获取由 Claude 先进 AI 驱动的智能、上下文感知代码审查和自动化 PR 摘要，以提高代码质量并节省时间。"
-  image: "mediakit://aigne-codesmith-hero-visual.png"
-sections:
-  - sectionName: "hero"
-    sectionSummary: "一个引人入胜的 hero 模块，旨在通过强有力的价值主张、引人注目的视觉效果和清晰的行动号召，立即吸引访客的注意力，以推动初步互动。"
-    splitHeroTitle: "AI 驱动的代码审查，真正理解您的代码"
-    splitHeroDescription: "告别只检查语法的时代。AIGNE CodeSmith 利用 Claude 的高级推理能力，提供深入的、具备上下文感知的反馈，助您更快地交付更优质的代码。直接在 GitHub 中获取智能的 PR 摘要和逐行审查。"
-    splitHeroActions:
-      - text: "立即开始"
-        link: "https://github.com/aigne-io/aigne-codesmith"
-      - text: "阅读文档"
-        link: "https://github.com/aigne-io/aigne-codesmith/wiki"
-    splitHeroRightImage: "mediakit://aigne-codesmith-hero-visual.png"
-  - sectionName: "keyFeatures"
-    sectionSummary: "以可快速浏览的网格格式，突出展示 AIGNE CodeSmith 的核心差异化优势。本模块旨在快速传达产品的独特之处和价值所在。"
-    threeColumnGridTitle: "为何 AIGNE CodeSmith 能颠覆游戏规则"
-    list:
-      - sectionName: "contextAwareReviews"
-        sectionSummary: "“上下文感知审查”功能亮点。"
-        iconName: "lucide:brain-circuit"
-        cardTitle: "上下文感知审查"
-        cardDescription: "利用 Claude 的卓越推理能力，理解您代码背后的意图和架构，提供超越简单语法检查的反馈。"
-      - sectionName: "dualModelEfficiency"
-        sectionSummary: "“双模型高效率”功能亮点。"
-        iconName: "lucide:zap"
-        cardTitle: "双模型高效率"
-        cardDescription: "通过使用轻量级模型进行快速摘要，使用强大模型进行深入的逐行分析，智能地优化成本。"
-      - sectionName: "focusOnImpact"
-        sectionSummary: "“聚焦关键变更”功能亮点。"
-        iconName: "lucide:filter"
-        cardTitle: "聚焦关键问题"
-        cardDescription: "自动跳过拼写错误和格式化等琐碎变更，让您的团队能够专注于真正影响代码质量的关键问题。"
-  - sectionName: "coreCapabilities"
-    sectionSummary: "通过结合文本和实际产品截图，直观地展示产品的主要功能，使优势具体化且易于理解。"
-    twoColumnGridTitle: "全面赋能您工作流所需的一切"
-    list:
-      - sectionName: "prSummarization"
-        sectionSummary: "通过相关图片展示“PR 摘要”功能。"
-        contentCardTitle: "自动化 PR 摘要与发布说明"
-        contentCardDescription: "节省大量时间！为每个拉取请求获取简洁的自动生成摘要。一目了然地理解复杂变更，轻松生成发布说明。"
-        contentCardRightImage: "mediakit://pr-summary.png"
-      - sectionName: "lineByLineReviews"
-        sectionSummary: "通过相关图片展示“逐行审查”功能。"
-        contentCardTitle: "智能逐行审查"
-        contentCardDescription: "在您需要的地方直接接收上下文相关的改进建议。在潜在的错误、安全问题和架构问题进入生产环境之前将其捕获。"
-        contentCardRightImage: "mediakit://pr-review-comment.png"
-      - sectionName: "costOptimization"
-        sectionSummary: "通过相关图片展示“成本优化”功能。"
-        contentCardTitle: "智能成本优化"
-        contentCardDescription: "在不牺牲质量的前提下保持低成本。我们的增量审查只分析变更的文件，从而在最小化 API 使用的同时最大化覆盖范围。"
-        contentCardRightImage: "mediakit://pr-title-suggestion.png"
-      - sectionName: "customPrompts"
-        sectionSummary: "通过相关图片展示“自定义提示”功能。"
-        contentCardTitle: "完全可定制以符合您的标准"
-        contentCardDescription: "打造专属体验！通过自定义提示词来定制审查标准、语气和重点领域，确保 AI 的反馈与您团队的独特实践完美对齐。"
-        contentCardRightImage: "mediakit://pr-walkthrough.png"
-  - sectionName: "quickStartGuide"
-    sectionSummary: "提供一个简单的分步指南，帮助用户快速上手产品。本模块旨在提高操作性，消除采用过程中的任何障碍。"
-    oneColumnGridTitle: "不到 2 分钟即可开始"
-    list:
-      - sectionName: "stepOneWorkflow"
-        sectionSummary: "快速入门指南第一步：添加 GitHub 工作流文件。"
-        contentCardTitle: "第 1 步：添加工作流文件"
-        contentCardDescription: "只需将此 YAML 文件放入您仓库的 `.github/workflows/aigne-codesmith.yml` 路径下。这就是启动所需的一切！"
-        contentCardBottomCode:
-          name: "aigne-codesmith.yml"
-          content: "name: 🤖 AI Code Review\n\npermissions:\n  contents: read\n  pull-requests: write\n\non:\n  pull_request:\n  pull_request_review_comment:\n    types: [created]\n\njobs:\n  review:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: aigne-io/aigne-codesmith@latest\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}"
-      - sectionName: "stepTwoSecrets"
-        sectionSummary: "快速入门指南第二步：配置 API 密钥。"
-        contentCardTitle: "第 2 步：添加您的 Anthropic API 密钥"
-        contentCardDescription: "前往您仓库的“Settings > Secrets and variables > Actions”，然后将您的 Anthropic API 密钥添加为 `ANTHROPIC_API_KEY`。"
-        contentCardBottomImage: "mediakit://github-action-secret.png"
-      - sectionName: "stepThreeDone"
-        sectionSummary: "快速入门指南最后一步：庆祝完成。"
-        iconName: "lucide:party-popper"
-        cardTitle: "第 3 步：一切就绪！🎉"
-        cardDescription: "就是这样！创建您的下一个拉取请求，见证奇迹发生。AIGNE CodeSmith 将自动介入，提供智能审查。"
-  - sectionName: "useCases"
-    sectionSummary: "通过展示产品对不同类型团队（从大型企业到开源项目）的益处，证明其多功能性，以吸引更广泛的用户。"
-    threeColumnGridTitle: "完美适用于各种规模和类型的团队"
-    list:
-      - sectionName: "enterpriseTeams"
-        sectionSummary: "企业团队用例。"
-        iconName: "lucide:building-2"
-        cardTitle: "企业团队"
-        cardDescription: "轻松地在庞大的代码库中维护一致的标准、执行安全审查并提供架构指导。"
-      - sectionName: "startups"
-        sectionSummary: "初创公司用例。"
-        iconName: "lucide:rocket"
-        cardTitle: "初创公司与小型团队"
-        cardDescription: "快速行动，同时避免破坏。维持高代码质量，节省宝贵时间，并获得全天候的即时反馈。"
-      - sectionName: "openSource"
-        sectionSummary: "开源项目用例。"
-        iconName: "lucide:github"
-        cardTitle: "开源项目"
-        cardDescription: "指导新贡献者，确保在多元化社区中保持一致的质量，并自动生成发布说明以让每个人都了解最新进展。"
-  - sectionName: "testimonials"
-    sectionSummary: "通过社会认同建立信任和信誉，展示来自满意用户的真实评价，突出实际效益和成功案例。"
-    twoColumnGridTitle: "开发者们怎么说"
-    list:
-      - sectionName: "testimonialOne"
-        sectionSummary: "第一位用户的评价。"
-        userReview:
-          content: "AIGNE CodeSmith 在我们的认证系统中发现了 3 个我们在手动审查中遗漏的关键安全问题。其架构建议帮助我们显著改善了代码结构。"
-          userName: "Sarah Chen"
-          description: "TechFlow 首席开发人员"
-          avatarImage: ""
-      - sectionName: "testimonialTwo"
-        sectionSummary: "第二位用户的评价。"
-        userReview:
-          content: "我们将代码审查时间减少了 60%，同时还切实提高了代码质量。AI 提供的上下文信息对初级开发人员来说非常有价值。"
-          userName: "Marcus Rodriguez"
-          description: "DataSync 工程经理"
-          avatarImage: ""
-  - sectionName: "pricing"
-    sectionSummary: "提供透明且易于理解的定价信息。本模块帮助潜在客户快速评估适合其团队规模的成本和价值主张。"
-    threeColumnGridTitle: "透明简洁的定价"
-    list:
-      - sectionName: "pricingTierSmall"
-        sectionSummary: "小型团队定价。"
-        metricCardTitle: "5 名开发者"
-        metricCardData: "$3-5 / 天"
-        metricCardDescription: "基于每天约 20 个 PR"
-      - sectionName: "pricingTierMedium"
-        sectionSummary: "中型团队定价。"
-        metricCardTitle: "20 名开发者"
-        metricCardData: "$12-20 / 天"
-        metricCardDescription: "基于每天约 80 个 PR"
-      - sectionName: "pricingTierLarge"
-        sectionSummary: "大型团队定价。"
-        metricCardTitle: "50+ 名开发者"
-        metricCardData: "$30-50 / 天"
-        metricCardDescription: "基于每天约 200 个 PR"
-  - sectionName: "configurationOptions"
-    sectionSummary: "详细介绍可用的自定义和配置选项，展示产品的灵活性，并让用户能够根据其特定需求进行调整。"
-    oneColumnGridTitle: "强大的配置触手可及"
-    list:
-      - sectionName: "securityFocusedReview"
-        sectionSummary: "以安全为重点的自定义提示示例。"
-        contentCardTitle: "定制以进行安全重点审查"
-        contentCardDescription: "引导 AI 优先处理安全漏洞。定制系统消息，使其专注于身份验证、输入验证、SQL 注入等，以加固您的代码。"
-        contentCardBottomCode:
-          name: "system_message"
-          content: "system_message: |\n  你是一名专注于安全的代码审查员。请优先识别：\n  - 身份验证和授权缺陷\n  - 输入验证问题\n  - SQL 注入漏洞\n  - XSS 预防\n  - 数据泄露风险\n  - 加密最佳实践"
-      - sectionName: "architecturePerformanceReview"
-        sectionSummary: "以架构和性能为重点的自定义提示示例。"
-        contentCardTitle: "专注于架构与性能"
-        contentCardDescription: "需要高层级的反馈？将 AI 配置为架构审查员，专注于设计模式、性能瓶颈、可扩展性和 SOLID 原则。"
-        contentCardBottomCode:
-          name: "system_message"
-          content: "system_message: |\n  你是一名架构审查员，专注于：\n  - 系统设计模式\n  - 性能瓶颈\n  - 可扩展性问题\n  - 代码可维护性\n  - SOLID 原则\n  - 数据库优化"
-  - sectionName: "faq"
-    sectionSummary: "解答关于贡献、支持和入门的常见问题。此 FAQ 模块旨在主动解决用户疑问并鼓励社区参与。"
-    faqTitle: "常见问题解答"
-    faqList:
-      - question: "我如何为 AIGNE CodeSmith 做出贡献？"
-        answer: "我们欢迎任何贡献！您可以 fork 仓库，进行更改，然后提交拉取请求。请查看我们的贡献指南，了解有关代码风格和测试的详细信息。我们欢迎错误修复、新功能和文档改进。"
-      - question: "我在哪里可以找到更详细的文档？"
-        answer: "有关深入指南和高级配置选项，请查看该项目的官方 GitHub Wiki。那里是获取详细信息的最佳位置。"
-      - question: "如果我发现一个 bug 或有一个功能想法怎么办？"
-        answer: "我们很乐意听取您的意见！请在我们的 GitHub 仓库中开启一个 issue。对于 bug，请使用“Bug Report”模板；对于新想法，请使用“Feature Request”模板。这有助于我们有效地跟踪和处理它们。"
-      - question: "如果遇到问题，我该如何获得支持？"
-        answer: "获得帮助的最佳方式是在我们的 GitHub Discussions 中发起一个对话。社区和我们的团队在那里都很活跃，可以帮助您解决任何问题。"
-      - question: "除了 Claude 3.5 Sonnet，我可以使用其他 AI 模型吗？"
-        answer: "是的，AIGNE CodeSmith 非常灵活！您可以在工作流文件中配置 `anthropic_light_model` 和 `anthropic_heavy_model` 参数，以使用 Anthropic 提供的其他兼容模型。"
-  - sectionName: "finalCta"
-    sectionSummary: "一个最终、高影响力的行动号召模块，旨在转化访客。它重申了核心优势，并提供一个清晰、不容错过的“开始使用”按钮。"
-    ctaTitle: "准备好彻底改变您的代码审查了吗？"
-    ctaDescription: "停止在手动审查上浪费时间，开始利用 AI 的力量。立即提高您的代码质量，加速开发周期，并为您的团队赋能。"
-    cta:
-      - text: "立即试用 AIGNE CodeSmith"
-        link: "https://github.com/aigne-io/aigne-codesmith"
-      - text: ""
-        link: ""
+"meta":
+  "title": "AIGNE CodeSmith：AI 驱动的代码审查与 PR 摘要"
+  "description": "使用 AIGNE CodeSmith 加速您的开发工作流。获取由 Claude 先进推理能力驱动的智能、上下文感知代码审查和 PR 摘要，以提高代码质量并节省时间。"
+  "image": "mediakit://hero-aigne-codesmith-visual.png"
+"sections":
+  - "sectionName": "hero"
+    "sectionSummary": "此英雄部分通过引人注目的标题、价值主张的简要说明以及清晰的行动号召来介绍 AIGNE CodeSmith，旨在吸引访问者的注意力并鼓励他们探索产品。"
+    "splitHeroBigTitle": "真正理解您代码的 AI 代码审查"
+    "splitHeroSubTitle": "利用 Claude 先进的推理能力，通过智能、上下文感知的代码审查加速您的开发工作流。"
+    "splitHeroDescription": "彻底改变您的代码审查流程。AIGNE CodeSmith 不仅仅是检查语法——它能理解上下文、识别架构问题，并提供有助于团队成长的深刻反馈。"
+    "splitHeroActions":
+      - "text": "在 GitHub 上开始使用"
+        "link": "https://github.com/aigne-io/aigne-codesmith"
+      - "text": "探索功能"
+        "link": "#features"
+    "splitHeroImage": "mediakit://hero-aigne-codesmith-visual.png"
+  - "sectionName": "features"
+    "sectionSummary": "本节重点介绍 AIGNE CodeSmith 的核心功能，通过一个视觉上引人入胜的三列网格展示其主要能力。每个功能都配有图标和简短描述，方便用户快速了解产品优势。"
+    "threeColumnGridTitle": "智能代码审查所需的一切"
+    "list":
+      - "sectionName": "prSummarization"
+        "sectionSummary": "详细介绍 PR 摘要功能。"
+        "iconName": "lucide:file-text"
+        "cardTitle": "PR 摘要"
+        "cardDescription": "自动生成简洁的摘要和发布说明，让您一目了然地了解变更，节省宝贵时间。"
+      - "sectionName": "lineByLineReviews"
+        "sectionSummary": "详细介绍逐行审查功能。"
+        "iconName": "lucide:search-code"
+        "cardTitle": "逐行审查"
+        "cardDescription": "在关键之处获得代码改进的上下文建议，帮助您在问题进入生产环境之前将其捕获。"
+      - "sectionName": "costOptimization"
+        "sectionSummary": "详细介绍成本优化功能。"
+        "iconName": "lucide:dollar-sign"
+        "cardTitle": "成本优化"
+        "cardDescription": "增量审查仅跟踪已更改的文件，最大限度地减少 API 成本，同时最大化您的代码覆盖率。内置高效！"
+      - "sectionName": "smartAnalysis"
+        "sectionSummary": "详细介绍智能分析功能。"
+        "iconName": "lucide:brain-circuit"
+        "cardTitle": "智能分析"
+        "cardDescription": "利用 Claude-3.5-Sonnet 的强大功能进行卓越推理，为您提供深刻的架构见解，而不仅仅是简单的语法检查。"
+      - "sectionName": "intelligentSkipping"
+        "sectionSummary": "详细介绍智能跳过功能。"
+        "iconName": "lucide:fast-forward"
+        "cardTitle": "智能跳过"
+        "cardDescription": "我们的 AI 足够智能，可以忽略拼写错误和格式化等琐碎更改，让您的审查人员专注于真正重要的事情。"
+      - "sectionName": "customPrompts"
+        "sectionSummary": "详细介绍自定义提示功能。"
+        "iconName": "lucide:settings-2"
+        "cardTitle": "自定义提示"
+        "cardDescription": "完全可定制的审查标准和语气。轻松使 AI 适应您团队独特的标准和实践。"
+  - "sectionName": "quickStart"
+    "sectionSummary": "本节提供了一个简单、分步的 AIGNE CodeSmith 入门指南。它将整个过程分解为三个简单的操作，并配有代码片段和视觉效果，以确保无缝的设置体验。"
+    "oneColumnGridTitle": "不到 2 分钟即可启动并运行"
+    "list":
+      - "sectionName": "addWorkflow"
+        "sectionSummary": "快速入门指南的第一步，添加 GitHub 工作流文件。"
+        "contentCardTitle": "第 1 步：添加工作流"
+        "contentCardDescription": "只需向您的仓库添加一个文件！在 `.github/workflows/aigne-codesmith.yml` 处创建一个新文件，并粘贴以下配置。就是这么简单！"
+        "contentCardRightCode":
+          "name": "aigne-codesmith.yml"
+          "content": "name: 🤖 AI 代码审查
+
+
+            permissions:
+
+            \  contents: read
+
+            \  pull-requests: write
+
+
+            on:
+
+            \  pull_request:
+
+            \  pull_request_review_comment:
+
+            \    types: [created]
+
+
+            concurrency:
+
+            \  group:
+
+            \    ${{ github.repository }}-${{ github.event.number || github.head_ref || github.sha }}-${{ github.workflow }}-${{ github.event_name == 'pull_request_review_comment' && 'pr_comment' || 'pr' }}
+
+            \  cancel-in-progress: ${{ github.event_name != 'pull_request_review_comment' }}
+
+
+            jobs:
+
+            \  review:
+
+            \    runs-on: ubuntu-latest
+
+            \    steps:
+
+            \      - uses: aigne-io/aigne-codesmith@latest
+
+            \        env:
+
+            \          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            \          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+            \        with:
+
+            \          debug: false
+
+            \          review_simple_changes: false
+
+            \          review_comment_lgtm: false"
+      - "sectionName": "configureSecrets"
+        "sectionSummary": "快速入门指南的第二步，在 GitHub 中配置 API 密钥。"
+        "contentCardTitle": "第 2 步：配置密钥"
+        "contentCardDescription": "是时候保护您的 API 密钥了。前往您仓库的“Settings > Secrets and variables > Actions”。点击“New repository secret”，将其命名为 `ANTHROPIC_API_KEY`，并粘贴您从 Anthropic 控制台获取的密钥。"
+        "contentCardLeftScreenShot": "mediakit://github-action-secret.png"
+        "screenShotBackground": "linear-gradient(120deg, rgba(96,89,171,1) 0%, rgba(130,125,190,1) 100%)"
+      - "sectionName": "startReviewing"
+        "sectionSummary": "快速入门指南的最后一步，确认设置已完成。"
+        "contentCardTitle": "第 3 步：一切就绪！🎉"
+        "contentCardDescription": "就是这样！创建一个新的拉取请求，见证奇迹的发生。AIGNE CodeSmith 将自动介入，提供智能、有用的审查。编码愉快！"
+        "contentCardRightScreenShot": "mediakit://pr-review-comment.png"
+        "screenShotBackground": "linear-gradient(120deg, rgba(95,116,118,1) 0%, rgba(131,158,153,1) 100%)"
+  - "sectionName": "useCases"
+    "sectionSummary": "本节通过展示 AIGNE CodeSmith 对不同类型团队（企业、初创公司和开源项目）的益处，来体现其多功能性。它帮助潜在用户想象该工具如何适应其特定工作流程。"
+    "threeColumnGridTitle": "功能强大，适用于任何规模的团队"
+    "list":
+      - "sectionName": "enterpriseTeams"
+        "sectionSummary": "企业团队的用例。"
+        "iconName": "lucide:building"
+        "cardTitle": "企业团队"
+        "cardDescription": "在大型代码库中保持一致的标准，及早发现安全漏洞，并提供架构指导，以确保您的项目稳健安全。"
+      - "sectionName": "startups"
+        "sectionSummary": "初创公司和小型团队的用例。"
+        "iconName": "lucide:rocket"
+        "cardTitle": "初创公司与小型团队"
+        "cardDescription": "无需专门的审查人员即可维持高代码质量，通过 AI 建议分享知识，并节省时间专注于您最擅长的事情：构建出色的功能。"
+      - "sectionName": "openSource"
+        "sectionSummary": "开源项目的用例。"
+        "iconName": "lucide:users"
+        "cardTitle": "开源项目"
+        "cardDescription": "指导新贡献者，确保全面一致的审查质量，甚至自动生成发布说明，让您的社区保持知情和参与。"
+  - "sectionName": "testimonials"
+    "sectionSummary": "本节通过展示满意用户的真实评价来建立信任和信誉。它为 AIGNE CodeSmith 对代码质量和团队效率的影响提供了社会证明，使这些益处变得具体且 relatable。"
+    "twoBentoGridTitle": "真实世界的影响力"
+    "list":
+      - "sectionName": "sarahChenTestimonial"
+        "sectionSummary": "来自 Sarah Chen 的推荐信。"
+        "userReview":
+          "content": "“AIGNE CodeSmith 在我们的认证系统中发现了 3 个我们在手动审查中遗漏的关键安全问题。其架构建议帮助我们显著改善了代码结构。”"
+          "avatarImage": ""
+          "userName": "Sarah Chen"
+          "description": "TechFlow 首席开发人员"
+      - "sectionName": "marcusRodriguezTestimonial"
+        "sectionSummary": "来自 Marcus Rodriguez 的推荐信。"
+        "userReview":
+          "content": "“我们将代码审查时间减少了 60%，同时还切实提高了代码质量。AI 提供的上下文对初级开发人员来说非常有价值。”"
+          "avatarImage": ""
+          "userName": "Marcus Rodriguez"
+          "description": "DataSync 工程经理"
+  - "sectionName": "pricing"
+    "sectionSummary": "本节提供透明且易于理解的定价估算。通过根据团队规模和日常使用情况分解成本，帮助潜在客户评估该工具的可负担性和价值主张。"
+    "comparisonTableTitle": "透明简洁的定价"
+    "featureTitle": "用量"
+    "f":
+      - "l": "每日拉取请求"
+        "t": ""
+        "i": ""
+      - "l": "预估每日成本"
+        "t": "成本因代码复杂度和审查深度而异。Claude 模型的成本效益显著高于 GPT-4。"
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+      - "l": ""
+        "t": ""
+        "i": ""
+    "e":
+      - "l": "5 名开发人员"
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": ""
+        "al": ""
+        "au": ""
+        "at": ""
+      - "l": "20 名开发人员"
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": ""
+        "al": ""
+        "au": ""
+        "at": ""
+      - "l": "50+ 名开发人员"
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": "true"
+        "al": "联系销售"
+        "au": "mailto:sales@aigne.io"
+        "at": ""
+      - "l": ""
+        "s": ""
+        "d": ""
+        "i": ""
+        "h": ""
+        "al": ""
+        "au": ""
+        "at": ""
+    "m":
+      "f0":
+        "e0":
+          "v": "约 20 个 PR"
+          "t": ""
+          "h": ""
+        "e1":
+          "v": "约 80 个 PR"
+          "t": ""
+          "h": ""
+        "e2":
+          "v": "约 200 个 PR"
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f1":
+        "e0":
+          "v": "每天 3-5 美元"
+          "t": ""
+          "h": ""
+        "e1":
+          "v": "每天 12-20 美元"
+          "t": ""
+          "h": ""
+        "e2":
+          "v": "每天 30-50 美元"
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f2":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f3":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f4":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f5":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f6":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f7":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f8":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+      "f9":
+        "e0":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e1":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e2":
+          "v": ""
+          "t": ""
+          "h": ""
+        "e3":
+          "v": ""
+          "t": ""
+          "h": ""
+  - "sectionName": "configuration"
+    "sectionSummary": "本节详细介绍 AIGNE CodeSmith 中可用的各种配置选项，从基本参数到高级自定义提示。它使用户能够根据自己的特定需求定制工具，展示其灵活性和强大功能。"
+    "oneColumnGridTitle": "完全可定制以适应您的工作流"
+    "list":
+      - "sectionName": "securityFocusedReviews"
+        "sectionSummary": "针对安全审查的配置示例。"
+        "contentCardTitle": "注重安全的审查"
+        "contentCardDescription": "定制 AI 的特性以优先考虑安全性。通过自定义系统消息，您可以指示它专注于识别认证缺陷、输入验证问题、SQL 注入漏洞等。"
+        "contentCardBottomCode":
+          "name": "action.yml"
+          "content": "system_message: |
+
+            \  您是一名注重安全的代码审查员。请优先识别：
+
+            \  - 认证和授权缺陷
+
+            \  - 输入验证问题
+
+            \  - SQL 注入漏洞
+
+            \  - XSS 预防
+
+            \  - 数据暴露风险
+
+            \  - 加密最佳实践"
+      - "sectionName": "architecturePerformanceReviews"
+        "sectionSummary": "针对架构和性能审查的配置示例。"
+        "contentCardTitle": "架构与性能审查"
+        "contentCardDescription": "将焦点转移到高层架构问题上。自定义提示，让 AI 分析系统设计模式、性能瓶颈、可扩展性和代码可维护性，确保您的代码库经久耐用。"
+        "contentCardBottomCode":
+          "name": "action.yml"
+          "content": "system_message: |
+
+            \  您是一名专注于架构的审查员，重点关注：
+
+            \  - 系统设计模式
+
+            \  - 性能瓶颈
+
+            \  - 可扩展性问题
+
+            \  - 代码可维护性
+
+            \  - SOLID 原则
+
+            \  - 数据库优化"
+  - "sectionName": "support"
+    "sectionSummary": "此常见问题解答部分回答了有关获取帮助、报告错误和请求功能的常见问题。它确保用户有清晰的途径获得支持和参与社区，营造积极协作的环境。"
+    "faqTitle": "支持与社区"
+    "faqList":
+      - "question": "我在哪里可以找到详细的文档？"
+        "answer": "您可以查看我们的 Wiki，获取关于每个功能和配置选项的详细指南和全面文档。"
+      - "question": "我如何报告错误？"
+        "answer": "发现问题了吗？我们很乐意倾听！请在我们的 GitHub 仓库中提交一个 issue，并提供详细的复现步骤，以便我们修复。"
+      - "question": "我有一个很棒的新功能想法。我可以在哪里提出建议？"
+        "answer": "我们洗耳恭听！您可以通过在我们的 GitHub 上创建一个功能请求 issue 来建议改进和新功能。让我们一起构建出色的产品！"
+      - "question": "有可以与社区讨论项目的地方吗？"
+        "answer": "当然有！加入我们的 GitHub Discussions 提问、分享想法，并与其他 AIGNE CodeSmith 用户和贡献者建立联系。"
+  - "sectionName": "finalCta"
+    "sectionSummary": "这最后一个行动号召部分旨在将访问者转化为用户。它呈现了清晰、引人注目的信息和突出的按钮，鼓励他们采取下一步，将 AIGNE CodeSmith 集成到他们的工作流程中。"
+    "ctaTitle": "准备好为您的代码审查增效了吗？"
+    "ctaDescription": "不要再浪费时间进行手动审查，让我们的 AI 来处理繁重的工作。立即开始，体验更快、更智能、更高效的开发工作流。"
+    "cta":
+      - "text": "在 GitHub 上开始使用"
+        "link": "https://github.com/aigne-io/aigne-codesmith"
+      - "text": ""
+        "link": ""
