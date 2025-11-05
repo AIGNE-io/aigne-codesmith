@@ -893,6 +893,10 @@ const modelTokensMap = {
         maxTokens: 200_000,
         responseTokens: 8192
     },
+    'claude-sonnet-4-20250514': {
+        maxTokens: 200_000,
+        responseTokens: 8192
+    },
     'qwen-coder-plus': {
         maxTokens: 129_024,
         responseTokens: 8192
@@ -1026,7 +1030,7 @@ class Options {
     apiBaseUrl;
     language;
     suggestPrTitle;
-    constructor(debug, disableReview, disableReleaseNotes, maxFiles = '0', reviewSimpleChanges = false, reviewCommentLGTM = false, pathFilters = null, systemMessage = '', anthropicLightModel = 'claude-3-5-sonnet-latest', anthropicHeavyModel = 'claude-3-5-sonnet-latest', anthropicModelTemperature = '0.0', anthropicRetries = '3', anthropicTimeoutMS = '120000', anthropicConcurrencyLimit = '6', githubConcurrencyLimit = '6', apiBaseUrl = 'https://api.anthropic.com/v1', language = 'en-US', suggestPrTitle = false) {
+    constructor(debug, disableReview, disableReleaseNotes, maxFiles = '0', reviewSimpleChanges = false, reviewCommentLGTM = false, pathFilters = null, systemMessage = '', anthropicLightModel = 'claude-sonnet-4-20250514', anthropicHeavyModel = 'claude-sonnet-4-20250514', anthropicModelTemperature = '0.0', anthropicRetries = '3', anthropicTimeoutMS = '120000', anthropicConcurrencyLimit = '6', githubConcurrencyLimit = '6', apiBaseUrl = 'https://api.anthropic.com/v1', language = 'en-US', suggestPrTitle = false) {
         this.debug = debug;
         this.disableReview = disableReview;
         this.disableReleaseNotes = disableReleaseNotes;

@@ -36,8 +36,8 @@ jobs:
           debug: true
           language: 'en-US'
           review_comment_lgtm: false
-          anthropic_light_model: claude-3-5-sonnet-latest
-          anthropic_heavy_model: claude-3-5-sonnet-latest
+          anthropic_light_model: claude-sonnet-4-20250514
+          anthropic_heavy_model: claude-sonnet-4-20250514
           path_filters: |
             !dist/**
             !**/*.lock

@@ -76,8 +76,8 @@ Optional:
 
 Default models:
 
-- Light model: `claude-3-5-sonnet-latest` (for summaries)
-- Heavy model: `claude-3-5-sonnet-latest` (for detailed reviews)
+- Light model: `claude-sonnet-4-20250514` (for summaries)
+- Heavy model: `claude-sonnet-4-20250514` (for detailed reviews)
 
 Models can be configured via action inputs `anthropic_light_model` and
 `anthropic_heavy_model`.

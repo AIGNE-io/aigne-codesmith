@@ -24,6 +24,10 @@ const modelTokensMap: Record<string, ModelTokens> = {
     maxTokens: 200_000,
     responseTokens: 8192
   },
+  'claude-sonnet-4-20250514': {
+    maxTokens: 200_000,
+    responseTokens: 8192
+  },
   'qwen-coder-plus': {
     maxTokens: 129_024,
     responseTokens: 8192

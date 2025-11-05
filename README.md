@@ -158,13 +158,13 @@ automatically.
 
 ### 🎛️ Basic Configuration
 
-| Parameter               | Description                  | Default                    |
-| ----------------------- | ---------------------------- | -------------------------- |
-| `anthropic_light_model` | Model for summaries          | `claude-3-5-sonnet-latest` |
-| `anthropic_heavy_model` | Model for detailed reviews   | `claude-3-5-sonnet-latest` |
-| `max_files`             | Maximum files to review      | `150`                      |
-| `review_simple_changes` | Review trivial changes       | `false`                    |
-| `language`              | Response language (ISO code) | `en-US`                    |
+| Parameter               | Description                  | Default                     |
+| ----------------------- | ---------------------------- | --------------------------- |
+| `anthropic_light_model` | Model for summaries          | `claude-sonnet-4-20250514` |
+| `anthropic_heavy_model` | Model for detailed reviews   | `claude-sonnet-4-20250514` |
+| `max_files`             | Maximum files to review      | `150`                       |
+| `review_simple_changes` | Review trivial changes       | `false`                     |
+| `language`              | Response language (ISO code) | `en-US`                     |
 
 ### 🎨 Custom Prompts
 
